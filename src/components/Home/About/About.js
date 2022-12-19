@@ -11,7 +11,7 @@ function About() {
 
         <div className='border-transparent border-l-blue-400 border-2 p-8 mt-14 lg:mt-4'>
                 <p>
-                    A certified Data Scientist with a core background in mathematics with 5 years
+                    A certified Data Scientist with a core background in mathematics with 7 years
                     of experience formulating and analyzing deterministic models, self-motivated 
                     and passionate about drawing insights from data to provide data-driven solutions 
                     to business problems.

@@ -16,11 +16,8 @@ function Skills() {
                 Skills Expertise
             </h2>
             <p className='p-6 text-blue-800'>
-                <span className='mr-8'>1 - Basic</span>
-                <span className='mr-8'>2 - Novice </span>
-                <span className='mr-8'>3 - Intermediate</span>
-                <span className='mr-8'>4 - Advanced</span>
-                <span className='mr-8'>5 - Expert</span> 
+                <span></span>
+                
             </p>
         </div>
         
@@ -43,45 +40,35 @@ function Skills() {
                         
                         <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                                Recommender Systems - 5
+                                Recommender Systems
                             </p>
-                            <div className='h-full w-full bg-slate-400'>
-
-                            </div>
+                            
                         </div>
                         <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                                Microsoft power BI - 4
+                                Microsoft power BI
                             </p>
-                            <div className='h-full w-4/5 bg-slate-400'>
-
-                            </div>
+                            
                         </div>
                         <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                                Predictive Modelling - 3
+                                Predictive Modelling
                             </p>
-                            <div className='h-full w-3/5 bg-slate-400'>
-
-                            </div>
+                            
                         </div>
 
                         <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                                Machine Learning - 3
+                                Machine Learning
                             </p>
-                            <div className='h-full w-3/5 bg-slate-400'>
-
-                            </div>
+                            
                         </div>
 
                         <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                                Natural Language Processingn (NLP) - 3
+                                Natural Language Processingn (NLP)
                             </p>
-                            <div className='h-full w-3/5 bg-slate-400'>
-
-                            </div>
+                            
                         </div>
 
                     </div>
@@ -113,45 +100,35 @@ function Skills() {
                     
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                         <p>
-                            Pandas &#40;Software&#41; - 5
+                            Pandas &#40;Software&#41;
                         </p>
-                        <div className='h-full bg-slate-400'>
-
-                        </div>
+                        
                     </div>
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                         <p>
-                            Keras - 4
+                            Keras
                         </p>
-                        <div className='h-full w-4/5 bg-slate-400'>
-
-                        </div>
+                        
                     </div>
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                         <p>
-                            Deep Learning - 5
+                            Deep Learning
                         </p>
-                        <div className='h-full w-5/5 bg-slate-400'>
-
-                        </div>
+                        
                     </div>
 
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                                K-Nearest Neighbors (kNN) - 4
+                                K-Nearest Neighbors (kNN)
                             </p>
-                            <div className='h-full w-4/5 bg-slate-400'>
-
-                            </div>
+                            
                     </div>
 
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                               Python (Programming Language) - 4
+                               Python (Programming Language)
                             </p>
-                            <div className='h-full w-4/5 bg-slate-400'>
-
-                            </div>
+                            
                         </div>
                 </div>
                 </div>
@@ -182,45 +159,35 @@ function Skills() {
                     
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                         <p>
-                            BlockChain Analysis - 5
+                            BlockChain Analysis
                         </p>
-                        <div className='h-full bg-slate-400'>
-
-                        </div>
+                        
                     </div>
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                         <p>
-                            Logistic Regression - 4
+                            Logistic Regression
                         </p>
-                        <div className='h-full bg-slate-400'>
-
-                        </div>
+                        
                     </div>
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                         <p>
-                            Statistical data Analysis - 3
+                            Statistical data Analysis
                         </p>
-                        <div className='h-full w-3/5 bg-slate-400'>
-
-                        </div>
+                    
                     </div>
 
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                                Amazon Web Services - 4
+                                Amazon Web Services
                             </p>
-                            <div className='h-full w-4/5 bg-slate-400'>
-
-                            </div>
+                            
                     </div>
 
                     <div className='h-4 my-12 text-lg lg:text-xl'>
                             <p>
-                                Statistics - 4
+                                Statistics
                             </p>
-                            <div className='h-full w-4/5 bg-slate-400'>
-
-                            </div>
+                            
                         </div>
                 </div>
                 </div>

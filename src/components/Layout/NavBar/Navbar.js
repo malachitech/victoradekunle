@@ -51,7 +51,7 @@ function Navbar() {
         setOpen(prev => !prev)
     }
   return (
-    <nav className="bg-white fixed w-full z-50 box-border top-0 ">
+    <nav className="bg-slate-200 fixed w-full z-50 box-border top-0 ">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
 
@@ -61,7 +61,7 @@ function Navbar() {
 
 
 
-                <div className=" hidden lg:flex justify-center space-x-6 md:order-2">
+                <div className="lg:flex justify-center space-x-6 md:order-2 lg:mr-16">
                     {navigation.map((item) => (
                         <a key={item.name} href={item.href} target='_blank' rel='noreferrer' className="text-gray-600 hover:text-gray-400">
                         <span className="sr-only">{item.name}</span>
@@ -70,7 +70,7 @@ function Navbar() {
                     ))}
                 </div>
 
-                <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
+                <div className="absolute inset-y-0 right-0 flex items-center">
                     {/* Mobile menu button */}
                     <button type="button" onClick={toggledropdown} className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
@@ -86,22 +86,26 @@ function Navbar() {
                 </div>
 
             
-                <div className="flex items-center justify-center sm:items-stretch sm:justify-end">
+                {/* <div className="flex items-center justify-center sm:items-stretch sm:justify-end">
                     
                     <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
-                            {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
+                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                             <Link to="/" className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
                             
-                            <Link to="/portfolio" className="text-blue-500 hover:text-blue-200 px-3 py-2 rounded-md text-sm font-medium">Portfolio</Link>
+                            <Link to="/portfolio" className=" text-rose-800 hover:bg-rose-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Portfolio</Link>
 
                             <Link to="/about" className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</Link>
 
-                            <Link to="/portfolio" className="bg-blue-900 text-blue-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Resume</Link>
+                            <Link to="/about"  onClick={toggledropdown} className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Research Work</Link>
+                            <Link to="/about"  onClick={toggledropdown} className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Awards And Recognitions</Link>
+                            <Link to="/about"  onClick={toggledropdown} className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships</Link>
+
+                            <Link to="/portfolio" className="bg-gray-700 text-white hover:bg-gray-500 px-3 py-2 rounded-md text-sm font-medium">Resume</Link>
 
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
             
@@ -120,6 +124,10 @@ function Navbar() {
                 <Link to="/portfolio"  onClick={toggledropdown} className="text-blue-500 hover:text-blue-200 block px-3 py-2 rounded-md text-base font-medium">Portfolio</Link>
 
                 <Link to="/about"  onClick={toggledropdown} className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
+
+                <Link to="/about"  onClick={toggledropdown} className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Research Work</Link>
+                <Link to="/about"  onClick={toggledropdown} className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Awards And Recognitions</Link>
+                <Link to="/about"  onClick={toggledropdown} className="text-gray-700 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships</Link>
 
                 <Link to="/portfolio"  onClick={toggledropdown} className="bg-blue-900 text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Resume</Link>
 

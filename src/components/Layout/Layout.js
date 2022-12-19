@@ -8,7 +8,7 @@ function Layout({children}) {
         
             <Navbar />
         
-            <div className=' mt-20 '>
+            <div className=' mt-10 '>
                 {children}
             </div>
             

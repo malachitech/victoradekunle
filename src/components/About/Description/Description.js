@@ -24,7 +24,7 @@ function Description() {
                     <p className="block text-l mt-4  md:text-2xl">Data Analyst &#124; Data Scientist &#124; Doctoral Researcher (Mathematical Epidemiology) &#124; Blockchain Technology</p>
                     <div className='mt-4'>
                         <p>
-                            A certified Data Scientist with a core background in mathematics with 5 years
+                            A certified Data Scientist with a core background in mathematics with 7 years
                             of experience formulating and analyzing deterministic models, self-motivated 
                             and passionate about drawing insights from data to provide data-driven solutions 
                             to business problems. Exploring machine learning algorithms to build models and analyze 
