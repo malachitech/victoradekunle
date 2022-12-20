@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from './CTA.module.css'
+import victorImg from "../../../../public/images/victor.jpg"
 
 /* This example requires Tailwind CSS v2.0+ */
  function CTA() {
@@ -50,7 +51,7 @@ import styles from './CTA.module.css'
           <div className="inline-flex shadow ">
 
           <img  
-            src="https://harrisonjansma.com/img/harrison.png"
+            src={victorImg}
             alt="victor"
             className="h-full"
           />

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import victorImg from "../../../../public/images/victor.jpg"
 
 function Description() {
   return (
@@ -10,7 +11,7 @@ function Description() {
                 <div className="inline-flex shadow">
 
                 <img  
-                    src="https://harrisonjansma.com/img/harrison.png"
+                    src={victorImg}
                     alt="victor"
                 />
                 
