@@ -1,0 +1,12 @@
+.datascience{
+    background-image: linear-gradient(to right, rgba(89, 89, 92, 0.808) 70%, rgba(89, 89, 92, 0.808) 30%),  url(../../../../public/images/portfolio-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+
+.datascience:hover{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.884) 70%, rgba(0, 0, 0, 0.863) 30%),  url(../../../../public/images/portfolio-bg.jpg);
+}

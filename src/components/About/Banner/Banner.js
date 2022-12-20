@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import './Banner.css'
 
 function Banner({text}) {
   return (
-    <div className='h-64 bg-slate-700 text-slate-100 flex flex-col justify-center text-center'>
+    <div className='banner h-64 text-slate-100 flex flex-col justify-center text-center'>
         <h2 className=' text-5xl mb-4 '>
             {text}
         </h2>

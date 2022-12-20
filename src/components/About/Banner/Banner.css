@@ -1,0 +1,7 @@
+.banner{
+    background-image: linear-gradient(to right, rgba(215, 214, 230, 0.151) 70%, rgba(215, 214, 230, 0.151) 30%),  url(../../../../public/images/victor-cta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
