@@ -9,7 +9,7 @@ function About() {
   return (
     <div>
         <Banner 
-            text='About Me'
+            text='Victor Aduragbemi Adekunle (Ph.d)'
         />
         <Description />
         <Research />

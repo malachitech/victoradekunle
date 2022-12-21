@@ -93,7 +93,7 @@ function Navbar() {
             {open && 
               <div id="sidebarMenu">
               <ul className="sidebarMenuInner">
-                <li>Victor Adekunle (Phd)<span>Data Analyst</span></li>
+                <Link to='/' onClick={toggledropdown}><li>Victor Adekunle (Phd)<span>Data Analyst</span></li></Link>
                 <Link to="/"  onClick={toggledropdown} className="sidebarContent text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
 
                 <Link to="/portfolio"  onClick={toggledropdown} className="text-blue-500 hover:text-blue-200 block px-3 py-2 rounded-md text-base font-medium">Portfolio</Link>
@@ -102,7 +102,7 @@ function Navbar() {
 
                 <Link to="/research"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Research Work</Link>
                 <Link to="/awards"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Awards And Recognitions</Link>
-                <Link to="/about"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships</Link>
+                <Link to="/membership"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships</Link>
 
                 <Link to="/portfolio"  onClick={toggledropdown} className="bg-blue-900 text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Resume</Link>
 
