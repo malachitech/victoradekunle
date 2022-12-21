@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import victorImg from "../../../../public/images/victor.jpg"
+import victorImg from "../../Images/victor.jpg"
 
 function Description() {
   return (
     <div className="bg-indigo-50">
         <div className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8 lg:flex lg:items-center lg:justify-between">
             
-            <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-                <div className="inline-flex shadow">
+            <div className="mt-8 flex lg:mt-0 justify-center">
+                <div className="inline-flex ">
 
                 <img  
                     src={victorImg}

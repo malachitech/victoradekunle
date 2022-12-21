@@ -8,21 +8,21 @@ import {MdPhonelink, MdAssessment} from 'react-icons/md'
 
   const actions = [
     {
-        title: 'Cloud Computing',
+        title: 'Deep Learning',
         //   HiOutlineCloud
         icon: HiOutlineCloud,
         iconForeground: 'text-teal-700',
         iconBackground: 'bg-teal-50',
     },
     {
-        title: 'NLP',
+        title: 'Recommendation System',
         href: '#',
         icon: HiOutlineChat,
         iconForeground: 'text-purple-700',
         iconBackground: 'bg-purple-50',
     },
     {
-        title: 'Machine Learning',
+        title: 'Blockchain Technology',
         //   UsersIcon
         icon: AcademicCapIcon,
         iconForeground: 'text-sky-700',
@@ -30,21 +30,21 @@ import {MdPhonelink, MdAssessment} from 'react-icons/md'
     },
     
     {
-        title: 'Parallel Computing',
+        title: 'Artifitial Intelligent',
         
         icon: HiMap,
         iconForeground: 'text-rose-700',
         iconBackground: 'bg-rose-50',
     },
     {
-        title: 'Collaboration',
+        title: 'Music (Guitar)',
         
         icon: MdPhonelink,
         iconForeground: 'text-indigo-700',
         iconBackground: 'bg-indigo-50',
     },
     {
-        title: 'Data Analytics',
+        title: 'Gaming',
         
         icon: MdAssessment,
         iconForeground: 'text-fuchsia-700',

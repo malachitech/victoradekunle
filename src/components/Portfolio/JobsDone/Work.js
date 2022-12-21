@@ -69,6 +69,18 @@ const techSkills = [
     
 
 ]
+
+const softSkills = [
+    {
+        skill: 'Leadership, People Skills, Organization, Coordination, and Collaboration', 
+        details: 'Harmonized three different music groups spanning two regions for 9 years to achieve various levelsof expertise. \n \n Coordinated an online community of over +2000 people to build a growth culture and discipline indifferent fields of the digital world '
+    },
+
+    {
+        skill: 'Teaching, Problem-Solving, Storytelling, and Communication', 
+        details: 'Possess unique ways of demystifying complex topics in Mathematics, Business, Music, and Tech'
+    },
+]
   
 function Work() {
   return (
@@ -114,6 +126,32 @@ function Work() {
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             
             {techSkills && techSkills.map((skills) => (
+                <div
+                    key={skills.skill}
+                    className="datascience relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                >
+                
+                <div className="flex-1 min-w-0">
+                    <div className="focus:outline-none">
+                        {/* <span className="absolute inset-0" aria-hidden="true" /> */}
+                        <p className="text-lg font-bold text-white  text-center">{skills.skill}</p>
+                        <p className="text-sm text-white text-center">{skills.details}</p>
+                        
+                    </div>
+                </div>
+                </div>
+            ))}
+            </div>
+        </div>
+
+         {/* technical skilss  */}
+         <div>
+            <h2 className='text-3xl text-center mx-auto my-20 mb-10'>
+                Soft skills
+            </h2>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            
+            {softSkills && softSkills.map((skills) => (
                 <div
                     key={skills.skill}
                     className="datascience relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"

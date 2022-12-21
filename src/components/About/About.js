@@ -3,6 +3,7 @@ import Skills from '../Home/Skills/Skills'
 import Banner from './Banner/Banner'
 import Description from './Description/Description'
 import Experience from './Experience/Experience'
+import Research from './Research/Research'
 
 function About() {
   return (
@@ -11,6 +12,7 @@ function About() {
             text='About Me'
         />
         <Description />
+        <Research />
         <Experience />
         <Skills />
     </div>

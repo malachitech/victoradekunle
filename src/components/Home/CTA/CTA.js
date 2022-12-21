@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from './CTA.module.css'
-import victorImg from "../../../../public/images/victor.jpg"
+import victorImg from "../../Images/victor.jpg"
 
 /* This example requires Tailwind CSS v2.0+ */
- function CTA() {
+function CTA() {
 
-  const state = ['Victor Adekunle', 'Data And Research Expert']
-    // const [state, setState] = useState(['URAPtj Token', 'Buy URAPtj Token'])
-    // const [qualities, setQualities] = useState(['Be a part of something great', 'Be a part of change', 'Be a part of growth', 'Be a part of the cause', 'Changing the world for good', 'Be a part of uraptj token'])
+  const state = ['Victor Adekunle', 'A Data And Research Expert']
+    
     const [text, setText] =  useState({count: 0, qualitiesCount: 0})
 
     // setTimeout()
