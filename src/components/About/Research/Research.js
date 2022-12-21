@@ -1,24 +1,28 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import measles from '../../Images/measles.jpg'
+import parameter from '../../Images/parameter.jpg'
+import sensitivity from '../../Images/sensitivity.jpg'
+import variation from '../../Images/variation.jpg'
 /* This example requires Tailwind CSS v2.0+ */
 const research = [
     {
         title: 'Mathematical Model for the Control of measles ',
-        
+        img:  measles
     },
 
     {
         title: 'Sensitivity Analysis of the parameters of a Cholera Model ',
-        
+        img:  parameter
     },
     {
         title: 'Solution of Cholera Disease Model by Parameter Expansion Method ',
-        
+        img:  sensitivity
     },
 
     {
         title: 'Variational Iteration Method for Solving an Infectious Disease Model ',
-        
+        img: variation
     },
 
     
@@ -37,13 +41,21 @@ function Experience() {
         {research.map((paper, i) => (
             <div
             key={i}
-            className="relative border text-center border-gray-300 h-48  bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+            className="relative border text-center border-gray-100 h-full  bg-white shadow-lg flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
             >
             
             <div className="flex-1 min-w-0">
                 <a href="/" className="focus:outline-none">
-                    <span className="absolute inset-0" aria-hidden="true" />
-                    <p className="text-2xl font-bold text-gray-900">{paper.title}</p>
+                    <img 
+                        src={paper.img}
+                        alt={paper.title}
+                        className= ''
+                    />
+                    <div className='text-center py-10 '>
+                        <span className="absolute inset-0 " aria-hidden="true" />
+                        <p className="text-2xl font-bold text-gray-900">{paper.title}</p>
+                    
+                    </div>
                     
                 </a>
             </div>

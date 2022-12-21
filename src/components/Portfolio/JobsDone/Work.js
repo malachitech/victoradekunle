@@ -84,10 +84,10 @@ const softSkills = [
   
 function Work() {
   return (
-    <div className='py-20 mx-auto lg:w-3/5 w-4/5'>
+    <div className='flex flex-col justify-center py-20 items-center '>
         
 {/* datascience  */}
-        <div>
+        <div className='lg:w-3/5 w-4/5 '>
             <h2 className='text-3xl text-center mx-auto mb-10'>
                 Data Science Projects and Case Studies
             </h2>
@@ -119,11 +119,11 @@ function Work() {
 
 
         {/* technical skilss  */}
-        <div>
-            <h2 className='text-3xl text-center mx-auto my-20 mb-10'>
+        <div className='bg-slate-200 pb-20 my-20'>
+            <h2 className='  text-3xl text-center py-20 '>
                 Technical skills
             </h2>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:w-3/5 w-4/5 mx-auto">
             
             {techSkills && techSkills.map((skills) => (
                 <div
@@ -145,11 +145,11 @@ function Work() {
         </div>
 
          {/* technical skilss  */}
-         <div>
-            <h2 className='text-3xl text-center mx-auto my-20 mb-10'>
+         <div className='lg:w-3/5 w-4/5 pb-20'>
+            <h2 className='text-3xl text-center mx-auto mb-20'>
                 Soft skills
             </h2>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2  mx-auto">
             
             {softSkills && softSkills.map((skills) => (
                 <div
