@@ -1,4 +1,4 @@
-.research-group > div{
+.awards-group > div{
     position: relative;
     transition: 0.5s ease-in;
     animation: check ease-in-out 1s;
@@ -19,6 +19,6 @@ img{
     }
 }
 
-.research-group > div:hover img{
+.awards-group > div:hover img{
    transform: scale(1.1);
 }

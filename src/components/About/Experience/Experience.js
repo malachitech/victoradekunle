@@ -1,4 +1,5 @@
 import React from 'react'
+import './Experience.css'
 /* This example requires Tailwind CSS v2.0+ */
 const people = [
     {
@@ -72,20 +73,20 @@ function Experience() {
                 My Experience
             </h2>
         </div>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className=" grid grid-cols-1 gap-4 sm:grid-cols-2">
         {people.map((person, i) => (
             <div
             key={i}
-            className="relative border text-center border-gray-300 h-48  bg-white px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+            className="experience-card relative border text-white text-center border-gray-300 h-48 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
             >
             
             <div className="flex-1 min-w-0">
-                <a href="/" className="focus:outline-none">
+                <div className="focus:outline-none">
                     <span className="absolute inset-0" aria-hidden="true" />
-                    <p className="text-sm font-bold text-gray-900">{person.role}</p>
-                    <p className="text-sm text-gray-500">{person.location}</p>
-                    <p className="text-sm text-gray-500">{person.period}</p>
-                </a>
+                    <p className="text-lg font-bold text-gray-100">{person.role}</p>
+                    <p className="text-sm text-gray-200">{person.location}</p>
+                    <p className="text-sm text-gray-200">{person.period}</p>
+                </div>
             </div>
             </div>
         ))}
