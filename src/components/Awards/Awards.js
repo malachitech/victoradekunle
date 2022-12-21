@@ -1,6 +1,5 @@
 import React from 'react'
 import Banner from '../About/Banner/Banner'
-import { Link } from 'react-router-dom'
 import cousera from '../Images/cousera.jpg'
 import greatLearning from '../Images/great-learning.png'
 import python from '../Images/python.png'

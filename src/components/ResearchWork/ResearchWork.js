@@ -1,6 +1,5 @@
 import React from 'react'
 import Banner from '../About/Banner/Banner'
-import { Link } from 'react-router-dom'
 import measles from '../Images/measles.jpg'
 import parameter from '../Images/parameter.jpg'
 import sensitivity from '../Images/sensitivity.jpg'
