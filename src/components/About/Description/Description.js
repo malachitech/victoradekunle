@@ -15,7 +15,7 @@ const dataScience = [
         goal: 'To analyze the dataset of a hotel to find the factor with the strongest influence on bookingcancellations',
         solution: 'Built a Random Forest model that can predict which booking would be canceled in advancewith 91% precision and 80% recall',
         result: 'Helped in formulating profitable policies for cancellations and refunds while minimizing lossesdue to cancellation or poor services',
-        img: fractional
+        img: 'https://miro.medium.com/max/798/1*-Ejvinw5XTxSQ5E3e9WtoQ.png'
     },
      
     {
@@ -25,7 +25,7 @@ const dataScience = [
         goal: 'To identify different segments of the existing customer based on their spending patterns as wellas past interaction with the bank',
         solution: 'Different clustering algorithms like K-means, K-medoids, and Gaussian Mixture were employedto build clusters of different categories of customers',
         result: 'Cluster profiles of the constructed clusters reveals customers’ latent features and relativity with credit churning tendencies',
-        img: orthogonal
+        img: 'https://www.hdatasystems.com/assets/case-study/credit-card-behavior-analysis/credi-card-an.png'
     },
 
     {
@@ -35,7 +35,7 @@ const dataScience = [
         goal: 'To examine the data of a Health Consultancy company to identify patterns in characteristics ofemployees who leave the organization and the key factors involved',
         solution: 'The Support Vector Machine (SVM) algorithm was used to build a model to identify employeesat risk of attrition.',
         result: 'A model with a high degree of accuracy was built to identify employees likely to attrite. This isfor the HR department to discover and incentivize the right employee on time, especially the unsatisfiedtop-performers',
-        img: treatment
+        img: 'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80'
     },
 
     {
@@ -45,10 +45,11 @@ const dataScience = [
         goal: 'To investigate aspects of Diabetes in the ladies of the Pima tribe of America as they are prone todiabetes early.',
         solution: 'Created a heatmap with Seaborn to visualize the relationship between variables in the dataset',
         result: 'Discovered that higher-than-normal level of glucose in the blood has a strong tendency to lead toDiabetes. Meanwhile, pregnancy has a fair correlation with age',
-        img: variation
+        img: 'https://res.cloudinary.com/practicaldev/image/fetch/s--KLoGk_J3--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ipmatztd1b66qiz5jstr.jpg'
     },
 
 ]
+
 
 
 function Description() {
