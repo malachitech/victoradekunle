@@ -18,14 +18,14 @@ function Membership() {
                 </div>
 
                 <div className='membership-detail'>
-                    <p className='text-bold text-lg my-10 text-center'>MIT Institute for Data Systems, and Society (MIT-IDSS)</p>
+                    <p className='text-bold text-lg my-10 text-center'>Member, MIT Institute for Data Systems, and Society (MIT-IDSS)</p>
                 </div>
             </div>
 
-            <div className='membership-card my-10'>
+            <div className='membership-icmc my-10'>
                 
                 <div className='membership-detail'>
-                    <p className='text-bold text-lg my-10 text-center'>MIT Institute for Data Systems, and Society (MIT-IDSS)</p>
+                    <p className='text-bold text-lg my-10 text-center'>Member, International Centre for Mathematical Sciences (ICMS)</p>
                 </div>
 
                 <div className='membershipCard-img'>
@@ -40,7 +40,7 @@ function Membership() {
                 </div>
 
                 <div className='membership-detail'>
-                    <p className='text-bold text-lg my-10 text-center'>MIT Institute for Data Systems, and Society (MIT-IDSS)</p>
+                    <p className='text-bold text-lg my-10 text-center'>Member, International Centre for Mathematical Sciences (ICMS)</p>
                 </div>
             </div>
                 
