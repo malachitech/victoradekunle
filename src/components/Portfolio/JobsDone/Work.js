@@ -1,4 +1,8 @@
 import React from 'react'
+import fractional from '../../Images/fractional.jpg'
+import orthogonal from '../../Images/orthogonal.png'
+import treatment from '../../Images/treatment.jpg'
+import variation from '../../Images/variation.jpg'
 import './Work.css'
 /* This example requires Tailwind CSS v2.0+ */
 const dataScience = [
@@ -9,6 +13,7 @@ const dataScience = [
         goal: 'To analyze the dataset of a hotel to find the factor with the strongest influence on bookingcancellations',
         solution: 'Built a Random Forest model that can predict which booking would be canceled in advancewith 91% precision and 80% recall',
         result: 'Helped in formulating profitable policies for cancellations and refunds while minimizing lossesdue to cancellation or poor services',
+        img: fractional
     },
      
     {
@@ -18,6 +23,7 @@ const dataScience = [
         goal: 'To identify different segments of the existing customer based on their spending patterns as wellas past interaction with the bank',
         solution: 'Different clustering algorithms like K-means, K-medoids, and Gaussian Mixture were employedto build clusters of different categories of customers',
         result: 'Cluster profiles of the constructed clusters reveals customers’ latent features and relativity with credit churning tendencies',
+        img: orthogonal
     },
 
     {
@@ -27,6 +33,7 @@ const dataScience = [
         goal: 'To examine the data of a Health Consultancy company to identify patterns in characteristics ofemployees who leave the organization and the key factors involved',
         solution: 'The Support Vector Machine (SVM) algorithm was used to build a model to identify employeesat risk of attrition.',
         result: 'A model with a high degree of accuracy was built to identify employees likely to attrite. This isfor the HR department to discover and incentivize the right employee on time, especially the unsatisfiedtop-performers',
+        img: treatment
     },
 
     {
@@ -36,6 +43,7 @@ const dataScience = [
         goal: 'To investigate aspects of Diabetes in the ladies of the Pima tribe of America as they are prone todiabetes early.',
         solution: 'Created a heatmap with Seaborn to visualize the relationship between variables in the dataset',
         result: 'Discovered that higher-than-normal level of glucose in the blood has a strong tendency to lead toDiabetes. Meanwhile, pregnancy has a fair correlation with age',
+        img: variation
     },
 
 ]
@@ -91,25 +99,33 @@ function Work() {
             <h2 className='text-3xl text-center mx-auto mb-10'>
                 Data Science Projects and Case Studies
             </h2>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+            <div className="dataScience grid grid-cols-1 gap-4 sm:grid-cols-2">
             
             {dataScience && dataScience.map((single) => (
                 <div
                     key={single.name}
-                    className="datascience relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="relative border text-center border-gray-100 h-full bg-white shadow-lg flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
                 <div className="flex-1 min-w-0">
                     <div className="focus:outline-none">
-                        <span className="absolute inset-0" aria-hidden="true" />
-                        <p className="text-lg font-bold text-white text-center">{single.name} <span className='text-lg text-red-400'>&#124; {single.company}</span> </p>
-                        <p className="text-sm text-white text-center">{single.date}</p>
-                        <br />
-                        <p className="text-sm text-white"><span className='font-bold'>Goal: </span>{single.goal}</p>
-                        <br />
-                        <p className="text-sm text-white"><span className='font-bold'>Solution: </span>{single.solution}</p>
-                        <br />
-                        <p className="text-sm text-white"><span className='font-bold'>Result: </span> {single.result}</p>
+                        <img 
+                            src={single.img}
+                            alt={single.name}
+                            
+                        />
+                        
+                        <div className='text-center pt-10 px-10 text-black'>
+                            <span className="absolute inset-0" aria-hidden="true" />
+                            <p className="text-lg font-bold text-center">{single.name} <span className='text-lg text-red-400'>&#124; {single.company}</span> </p>
+                            <p className="text-sm  text-center">{single.date}</p>
+                            <br />
+                            <p className="text-sm "><span className='font-bold'>Goal: </span>{single.goal}</p>
+                            <br />
+                            <p className="text-sm "><span className='font-bold'>Solution: </span>{single.solution}</p>
+                            <br />
+                            <p className="text-sm text-white"><span className='font-bold'>Result: </span> {single.result}</p>
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -128,7 +144,7 @@ function Work() {
             {techSkills && techSkills.map((skills) => (
                 <div
                     key={skills.skill}
-                    className="datascience relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="datascience relative border bg-black border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
                 <div className="flex-1 min-w-0">
@@ -154,7 +170,7 @@ function Work() {
             {softSkills && softSkills.map((skills) => (
                 <div
                     key={skills.skill}
-                    className="datascience relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="datascience relative border bg-black border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
                 <div className="flex-1 min-w-0">

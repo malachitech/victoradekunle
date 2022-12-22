@@ -37,7 +37,7 @@ const research = [
 
   ]
   
-function Experience() {
+function Research() {
   return (
     <div className='py-24 mx-auto lg:w-3/5 w-4/5'>
         <div className='text-center py-2 pb-16'>
@@ -82,4 +82,4 @@ function Experience() {
   )
 }
 
-export default Experience
+export default Research

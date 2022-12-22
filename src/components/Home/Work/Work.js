@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import victor from '../../Images/victor.jpg'
+import victor from '../../Images/victor.png'
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
     {

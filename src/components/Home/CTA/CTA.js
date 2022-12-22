@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from './CTA.module.css'
-import victorImg from "../../Images/victor.jpg"
+import victorImg from "../../Images/victor.png"
 
 /* This example requires Tailwind CSS v2.0+ */
 function CTA() {

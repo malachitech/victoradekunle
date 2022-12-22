@@ -67,7 +67,7 @@ function Skills() {
             {techSkills && techSkills.map((skills) => (
                 <div
                     key={skills.skill}
-                    className="datascience relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="datascience bg-black relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
                 <div className="flex-1 min-w-0">
@@ -93,7 +93,7 @@ function Skills() {
             {softSkills && softSkills.map((skills) => (
                 <div
                     key={skills.skill}
-                    className="datascience relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="datascience bg-black relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
                 <div className="flex-1 min-w-0">

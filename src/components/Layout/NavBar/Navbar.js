@@ -51,6 +51,10 @@ function Navbar() {
     const toggledropdown = () => {
         setOpen(prev => !prev)
     }
+
+    const onChangeHandler = () => {
+      setOpen(open)
+    }
   return (
     <nav className="bg-slate-200 fixed w-full z-50 box-border top-0 ">
         <div className="mx-auto max-w-7xl px-10 sm:px-6 lg:px-20">
@@ -82,8 +86,8 @@ function Navbar() {
         <div>
           
           <div>
-            <div class="header"></div>
-            <input type="checkbox" checked={open} className="openSidebarMenu" id="openSidebarMenu" />
+            <div className="header"></div>
+            <input type="checkbox" checked={open} className="openSidebarMenu" id="openSidebarMenu" onChange={onChangeHandler} />
             <label htmlFor="openSidebarMenu" className="sidebarIconToggle" onClick={toggledropdown}>
               <div className="spinner diagonal part-1"></div>
               <div className="spinner horizontal"></div>
