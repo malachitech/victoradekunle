@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import victorImg from "../../Images/victor.png"
-import fractional from '../../Images/fractional.jpg'
-import orthogonal from '../../Images/orthogonal.png'
-import treatment from '../../Images/treatment.jpg'
-import variation from '../../Images/variation.jpg'
+// import fractional from '../../Images/fractional.jpg'
+// import orthogonal from '../../Images/orthogonal.png'
+// import treatment from '../../Images/treatment.jpg'
+// import variation from '../../Images/variation.jpg'
 import './Description.css'
 
 const dataScience = [
