@@ -16,7 +16,7 @@ const navigation = [
     },
     {
       name: 'GitHub',
-      href: 'https://www.linkedin.com/in/victor-adekunle/',
+      href: 'https://github.com/Javascreen1?tab=repositories',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -53,11 +53,11 @@ function Navbar() {
     }
   return (
     <nav className="bg-slate-200 fixed w-full z-50 box-border top-0 ">
-        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-10 sm:px-6 lg:px-20">
             <div className="relative flex h-16 items-center justify-between">
 
-                <div className='text-dark'>
-                    <p>V. Adekunle</p>
+                <div className='text-dark text-xl lg:text-2xl text-bold uppercase'>
+                    <h1>V. Adekunle</h1>
                 </div>
 
 
@@ -93,7 +93,7 @@ function Navbar() {
             {open && 
               <div id="sidebarMenu">
               <ul className="sidebarMenuInner">
-                <Link to='/' onClick={toggledropdown}><li>Victor Adekunle (Phd)<span>Data Analyst</span></li></Link>
+                <Link to='/' onClick={toggledropdown}><li>Victor A. Adekunle<span>Data Analyst</span></li></Link>
                 <Link to="/"  onClick={toggledropdown} className="sidebarContent text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
 
                 <Link to="/portfolio"  onClick={toggledropdown} className="text-blue-500 hover:text-blue-200 block px-3 py-2 rounded-md text-base font-medium">Portfolio</Link>
@@ -104,7 +104,12 @@ function Navbar() {
                 <Link to="/awards"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Awards And Recognitions</Link>
                 <Link to="/membership"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships</Link>
 
-                <Link to="/portfolio"  onClick={toggledropdown} className="bg-blue-900 text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Resume</Link>
+                <a href="https://www.academia.edu/attachments/95831182/download_file?s=portfolio"
+                  onClick={toggledropdown}
+                   className="bg-blue-900 text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+                   Resume
+                   
+                </a>
 
                 <div className=" flex justify-center space-x-6 md:order-2 pt-10">
                     {navigation.map((item) => (

@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
+import victor from '../../Images/victor.jpg'
 /* This example requires Tailwind CSS v2.0+ */
 const posts = [
     {
@@ -20,7 +21,7 @@ const posts = [
         name: 'Victor Adekunle',
         to: '/',
         imageUrl:
-          'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+          victor,
       },
     },
     {
@@ -44,7 +45,7 @@ const posts = [
         name: 'Victor Adekunle',
         to: '/',
         imageUrl:
-          'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        victor,
       },
     },
     {
@@ -62,7 +63,7 @@ const posts = [
         name: 'Victor Adekunle',
         to: '/',
         imageUrl:
-          'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        victor,
       },
     },
   ]

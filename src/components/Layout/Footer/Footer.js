@@ -15,7 +15,7 @@ const navigation = [
   },
   {
     name: 'GitHub',
-    href: 'https://www.linkedin.com/in/victor-adekunle/',
+    href: 'https://github.com/Javascreen1?tab=repositories',
     icon: (props) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path

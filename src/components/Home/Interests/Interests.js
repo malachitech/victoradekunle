@@ -1,16 +1,13 @@
 
-import {
-    AcademicCapIcon,
-} from '@heroicons/react/outline'
-
-import {HiOutlineCloud, HiOutlineChat, HiMap} from 'react-icons/hi'  
-import {MdPhonelink, MdAssessment} from 'react-icons/md'  
+import {HiOutlineChat, } from 'react-icons/hi'  
+import {MdPhonelink, MdAssessment, MdVideogameAsset, MdQueueMusic} from 'react-icons/md'  
+import { SiHiveBlockchain } from "react-icons/si";
 
   const actions = [
     {
         title: 'Deep Learning',
         //   HiOutlineCloud
-        icon: HiOutlineCloud,
+        icon: MdAssessment,
         iconForeground: 'text-teal-700',
         iconBackground: 'bg-teal-50',
     },
@@ -24,7 +21,7 @@ import {MdPhonelink, MdAssessment} from 'react-icons/md'
     {
         title: 'Blockchain Technology',
         //   UsersIcon
-        icon: AcademicCapIcon,
+        icon: SiHiveBlockchain,
         iconForeground: 'text-sky-700',
         iconBackground: 'bg-sky-50',
     },
@@ -32,21 +29,21 @@ import {MdPhonelink, MdAssessment} from 'react-icons/md'
     {
         title: 'Artifitial Intelligent',
         
-        icon: HiMap,
+        icon: MdPhonelink,
         iconForeground: 'text-rose-700',
         iconBackground: 'bg-rose-50',
     },
     {
         title: 'Music (Guitar)',
         
-        icon: MdPhonelink,
+        icon: MdQueueMusic,
         iconForeground: 'text-indigo-700',
         iconBackground: 'bg-indigo-50',
     },
     {
         title: 'Gaming',
         
-        icon: MdAssessment,
+        icon: MdVideogameAsset,
         iconForeground: 'text-fuchsia-700',
         iconBackground: 'bg-fuchsia-50',
     },
@@ -65,7 +62,7 @@ function Interests() {
                 Areas Of Interest
             </h2>
             <p className='p-6 text-blue-800'>
-                Take a look at some of the things I love working on.
+                Take a look at some of the things I love to engage in.
             </p>
         </div>
         
@@ -84,7 +81,7 @@ function Interests() {
             //   'relative group bg-white p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-indigo-500'
             // )}
           >
-            <div>
+            <div className='text-center'>
               <span
                 className={classNames(
                   action.iconBackground,
@@ -95,18 +92,15 @@ function Interests() {
                 <action.icon className="h-6 w-6" aria-hidden="true" />
               </span>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 text-center">
               <h3 className="text-lg font-medium">
-                <div className="focus:outline-none">
+                <div className="focus:outline-none text-xl">
                   {/* Extend touch target to entire panel */}
                   <span className="absolute inset-0" aria-hidden="true" />
                   {action.title}
                 </div>
               </h3>
-              <p className="mt-2 text-sm text-gray-500">
-                Doloribus dolores nostrum quia qui natus officia quod et dolorem. Sit repellendus qui ut at blanditiis et
-                quo et molestiae.
-              </p>
+          
             </div>
             <span
               className="pointer-events-none absolute top-6 right-6 text-gray-300 group-hover:text-gray-400"
