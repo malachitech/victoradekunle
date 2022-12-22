@@ -1,7 +1,6 @@
 import React from 'react'
 import cousera from '../Images/cousera.jpg'
 import greatLearning from '../Images/great-learning.png'
-import python from '../Images/python.png'
 import udemy from '../Images/diff-transform.jpg'
 
 import './Membership.css'
