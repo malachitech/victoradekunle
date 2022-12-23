@@ -1,29 +1,39 @@
 
 import React from "react"
+import { SiHiveBlockchain } from "react-icons/si";
+
+import {HiOutlineChat, } from 'react-icons/hi'  
+import {MdPhonelink, MdAssessment, MdVideogameAsset} from 'react-icons/md'
+
 const techSkills = [
     {
         skill: 'Mathematics and Statistics', 
-        details: 'Tableau, Power '
+        details: 'Tableau, Power ',
+        icon: MdAssessment,
     },
 
     {
         skill: 'Data Visualization Tools', 
-        details: 'Tableau, Power BI, Matplotlib, Seaborn, Microsoft Azure, AWS'
+        details: 'Tableau, Power BI, Matplotlib, Seaborn, Microsoft Azure, AWS',
+        icon: HiOutlineChat,
     },
 
     {
         skill: 'Exploratory Data Analysis (EDA)', 
-        details: 'NumPy, Pandas, Scikit-learn'
+        details: 'NumPy, Pandas, Scikit-learn',
+        icon: SiHiveBlockchain,
     },
 
     {
         skill: 'Programming and Database', 
-        details: 'SQL (Structured Query Language), Python (Jupyter Notebook, Spyder), Google Collab, Flask, GitHub'
+        details: 'SQL (Structured Query Language), Python (Jupyter Notebook, Spyder), Google Collab, Flask, GitHub',
+        icon: MdPhonelink,
     },
 
     {
         skill: 'Data Science and Machine Learning Models and Algorithms', 
-        details: 'Regressions and Prediction, Classiﬁcation and Hypothesis Testing, Random Forest, Decision Tree, Hyperparameter Tuning, K-means Clustering, Principal Component Analysis (PCA), and algorithms, Feature Engineering, Deep Learning, SVM, KNN, Recommendation System, Natural Language Processing (NLP), Predictive Analytics, Networks, and Graphical Systems'
+        details: 'Regressions and Prediction, Classiﬁcation and Hypothesis Testing, Random Forest, Decision Tree, Hyperparameter Tuning, K-means Clustering, Principal Component Analysis (PCA), and algorithms, Feature Engineering, Deep Learning, SVM, KNN, Recommendation System, Natural Language Processing (NLP), Predictive Analytics, Networks, and Graphical Systems',
+        icon: MdVideogameAsset
     },
      
     
@@ -33,12 +43,14 @@ const techSkills = [
 const softSkills = [
     {
         skill: 'Leadership, People Skills, Organization, Coordination, and Collaboration', 
-        details: 'Harmonized three different music groups spanning two regions for 9 years to achieve various levelsof expertise. \n \n Coordinated an online community of over +2000 people to build a growth culture and discipline indifferent fields of the digital world '
+        details: 'Harmonized three different music groups spanning two regions for 9 years to achieve various levelsof expertise. \n \n Coordinated an online community of over +2000 people to build a growth culture and discipline indifferent fields of the digital world ',
+        icon: MdPhonelink
     },
 
     {
         skill: 'Teaching, Problem-Solving, Storytelling, and Communication', 
-        details: 'Possess unique ways of demystifying complex topics in Mathematics, Business, Music, and Tech'
+        details: 'Possess unique ways of demystifying complex topics in Mathematics, Business, Music, and Tech',
+        icon: MdPhonelink
     },
 ]
   
@@ -67,14 +79,20 @@ function Skills() {
             {techSkills && techSkills.map((skills) => (
                 <div
                     key={skills.skill}
-                    className="datascience bg-black relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="datascience bg-white relative border border-gray-300 px-6 py-5 shadow-lg  flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
-                <div className="flex-1 min-w-0">
-                    <div className="focus:outline-none">
+                <div className="flex-1 min-w-0 ">
+                    <div className="focus:outline-none ">
                         {/* <span className="absolute inset-0" aria-hidden="true" /> */}
-                        <p className="text-lg font-bold text-white  text-center">{skills.skill}</p>
-                        <p className="text-sm text-white text-center">{skills.details}</p>
+                        <div className="text-5xl font-bold flex flex-col justify-center items-center text-center py-16">
+                            <skills.icon />
+                        </div>
+
+                        <div className="py-8">
+                            <p className="text-xl font-bold  text-center">{skills.skill}</p>
+                            <p className="text-lg text-center text-blue-800">{skills.details}</p>
+                        </div>
                         
                     </div>
                 </div>
@@ -83,7 +101,7 @@ function Skills() {
             </div>
         </div>
 
-         {/* technical skilss  */}
+         {/* soft skilss  */}
          <div className='pb-20 '>
             <h2 className='text-3xl text-center mx-auto mb-20'>
                 Soft skills
@@ -93,14 +111,21 @@ function Skills() {
             {softSkills && softSkills.map((skills) => (
                 <div
                     key={skills.skill}
-                    className="datascience bg-black relative border border-gray-300 px-6 py-5 shadow-sm flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="datascience bg-white relative border border-gray-300 px-6 py-5 shadow-lg flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
                 <div className="flex-1 min-w-0">
                     <div className="focus:outline-none">
                         {/* <span className="absolute inset-0" aria-hidden="true" /> */}
-                        <p className="text-lg font-bold text-white  text-center">{skills.skill}</p>
-                        <p className="text-sm text-white text-center">{skills.details}</p>
+                        <div className="text-5xl font-bold flex flex-col justify-center items-center text-center py-16">
+                            <skills.icon />
+                        </div>
+
+                        <div className="py-8">
+                            <p className="text-lg font-bold  text-center">{skills.skill}</p>
+                            <p className="text-sm text-center text-blue-800">{skills.details}</p>
+                            
+                        </div>
                         
                     </div>
                 </div>
