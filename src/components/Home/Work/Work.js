@@ -12,8 +12,7 @@ const posts = [
          + "Built a Random Forest model that can predict which booking would be canceled in advance with 91% precision and 80% recall."
         + " Helped in formulating profitable policies for cancellations and refunds while minimizing losses due to cancellation or poor services"
       ,  
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
+
       imageUrl:
         'https://miro.medium.com/max/798/1*-Ejvinw5XTxSQ5E3e9WtoQ.png',
 
@@ -36,8 +35,7 @@ const posts = [
  
       
       `,  
-      date: 'Mar 10, 2020',
-      datetime: '2020-03-10',
+    
       imageUrl:
         'https://camo.githubusercontent.com/88e93df6215428e128037ea025fec321af48a5a8cb5016310a7f78701fe33bb3/68747470733a2f2f7777772e7465616d6c792e636f6d2f626c6f672f77702d636f6e74656e742f75706c6f6164732f323032322f30362f54797065732d6f662d456d706c6f7965652d417474726974696f6e2d373638783335342e706e67',
 
@@ -54,8 +52,8 @@ const posts = [
       category: { name: 'Case Study', to: 'https://www.linkedin.com/in/victor-adekunle/' },
       description:
         'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.',
-      date: 'Feb 12, 2020',
-      datetime: '2020-02-12',
+
+      
       imageUrl:
         'https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80',
 
@@ -115,8 +113,8 @@ function Work() {
                         </Link>
                       </p>
                       <div className="flex space-x-1 text-sm text-gray-500">
-                        <time dateTime={post.datetime}>{post.date}</time>
-                        <span aria-hidden="true">&middot;</span>
+        
+                        <span >Data Analyst</span>
                         
                       </div>
                     </div>

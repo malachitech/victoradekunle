@@ -19,6 +19,15 @@ const posts = [
       imageUrl:
         'https://1000logos.net/wp-content/uploads/2017/03/Linkedin-Logo.png',
     },
+
+    {
+      title: 'Open repository of academic articles',
+      href: 'https://victoraduragbemiadekunle.academia.edu/',
+      category: { name: 'Academia', href: 'https://victoraduragbemiadekunle.academia.edu/' },
+      
+      imageUrl:
+        'https://victoraduragbemiadekunle.academia.edu/images/portfolio_preview/cover_photos/humanities.jpg',
+    },
     
   ]
   
@@ -34,7 +43,7 @@ function Platforms() {
                 Other Platforms
             </h2>
         </div>
-        <div className="card-zoom mt-12 max-w-lg mx-auto grid gap-2 lg:grid-cols-2 lg:max-w-none justify-center">
+        <div className="card-zoom mt-12 max-w-lg mx-auto grid gap-2 lg:grid-cols-3 lg:max-w-none justify-center">
         {posts.map((post) => (
             <div key={post.title} className="lg:w-4/5 flex flex-col shadow-lg lg:mx-auto overflow-hidden ">
             <div className="flex-shrink-0">
