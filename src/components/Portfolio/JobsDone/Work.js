@@ -156,7 +156,7 @@ function Work() {
             <h2 className='text-black  text-3xl text-center py-20 '>
                 Technical skills
             </h2>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:w-3/5 w-4/5 mx-auto">
+            <div className="flex flex-col lg:w-2/5 w-4/5 mx-auto">
             
             {techSkills && techSkills.map((skills) => (
                 <div

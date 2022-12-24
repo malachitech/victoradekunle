@@ -71,16 +71,16 @@ function Skills() {
         </div>
         
         {/* technical skilss  */}
-        <div className='bg-slate-200 pb-20 mb-20'>
+        <div className='bg-slate-200 pb-20 mb-20 flex flex-col justify-center'>
             <h2 className='text-black  text-3xl text-center py-20 '>
                 Technical skills
             </h2>
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:w-3/5 w-4/5 mx-auto">
+            <div className="flex flex-col lg:w-2/5 w-4/5 mx-auto">
             
             {techSkills && techSkills.map((skills) => (
                 <div
                     key={skills.skill}
-                    className="datascience bg-white relative border border-gray-300 px-6 py-5 shadow-lg  flex items-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="datascience bg-white relative border  border-gray-300 px-6 py-5 shadow-lg  flex items-center justify-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
                 <div className="flex-1 min-w-0 ">
