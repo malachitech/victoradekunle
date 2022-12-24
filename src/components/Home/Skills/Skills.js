@@ -1,10 +1,11 @@
 
 import React from "react"
-import { SiHiveBlockchain } from "react-icons/si";
-
-import {HiOutlineChat, } from 'react-icons/hi'  
-import {MdPhonelink, MdAssessment, MdVideogameAsset} from 'react-icons/md'
-
+import { VscOrganization } from "react-icons/vsc";
+import { GiArtificialIntelligence, GiTeacher } from "react-icons/gi";  
+import { MdAssessment} from 'react-icons/md'
+import { HiCodeBracket } from "react-icons/hi2";
+import { SiAzuredataexplorer } from "react-icons/si";
+import { FcDataConfiguration } from "react-icons/fc";
 const techSkills = [
     {
         skill: 'Mathematics and Statistics', 
@@ -15,25 +16,25 @@ const techSkills = [
     {
         skill: 'Data Visualization Tools', 
         details: 'Tableau, Power BI, Matplotlib, Seaborn, Microsoft Azure, AWS',
-        icon: HiOutlineChat,
+        icon: FcDataConfiguration,
     },
 
     {
         skill: 'Exploratory Data Analysis (EDA)', 
         details: 'NumPy, Pandas, Scikit-learn',
-        icon: SiHiveBlockchain,
+        icon: SiAzuredataexplorer,
     },
 
     {
         skill: 'Programming and Database', 
         details: 'SQL (Structured Query Language), Python (Jupyter Notebook, Spyder), Google Collab, Flask, GitHub',
-        icon: MdPhonelink,
+        icon: HiCodeBracket,
     },
 
     {
         skill: 'Data Science and Machine Learning Models and Algorithms', 
         details: 'Regressions and Prediction, Classiﬁcation and Hypothesis Testing, Random Forest, Decision Tree, Hyperparameter Tuning, K-means Clustering, Principal Component Analysis (PCA), and algorithms, Feature Engineering, Deep Learning, SVM, KNN, Recommendation System, Natural Language Processing (NLP), Predictive Analytics, Networks, and Graphical Systems',
-        icon: MdVideogameAsset
+        icon: GiArtificialIntelligence
     },
      
     
@@ -44,13 +45,13 @@ const softSkills = [
     {
         skill: 'Leadership, People Skills, Organization, Coordination, and Collaboration', 
         details: 'Harmonized three different music groups spanning two regions for 9 years to achieve various levelsof expertise. \n \n Coordinated an online community of over +2000 people to build a growth culture and discipline indifferent fields of the digital world ',
-        icon: MdPhonelink
+        icon: VscOrganization
     },
 
     {
         skill: 'Teaching, Problem-Solving, Storytelling, and Communication', 
         details: 'Possess unique ways of demystifying complex topics in Mathematics, Business, Music, and Tech',
-        icon: MdPhonelink
+        icon: GiTeacher
     },
 ]
   
