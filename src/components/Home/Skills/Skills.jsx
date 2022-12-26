@@ -6,57 +6,62 @@ import { MdAssessment} from 'react-icons/md'
 import { HiCodeBracket } from "react-icons/hi2";
 import { SiAzuredataexplorer } from "react-icons/si";
 import { FcDataConfiguration } from "react-icons/fc";
-const techSkills = [
-    {
-        skill: 'Mathematics and Statistics', 
-        details: 'Tableau, Power ',
-        icon: MdAssessment,
-    },
-
-    {
-        skill: 'Data Visualization Tools', 
-        details: 'Tableau, Power BI, Matplotlib, Seaborn, Microsoft Azure, AWS',
-        icon: FcDataConfiguration,
-    },
-
-    {
-        skill: 'Exploratory Data Analysis (EDA)', 
-        details: 'NumPy, Pandas, Scikit-learn',
-        icon: SiAzuredataexplorer,
-    },
-
-    {
-        skill: 'Programming and Database', 
-        details: 'SQL (Structured Query Language), Python (Jupyter Notebook, Spyder), Google Collab, Flask, GitHub',
-        icon: HiCodeBracket,
-    },
-
-    {
-        skill: 'Data Science and Machine Learning Models and Algorithms', 
-        details: 'Regressions and Prediction, Classiﬁcation and Hypothesis Testing, Random Forest, Decision Tree, Hyperparameter Tuning, K-means Clustering, Principal Component Analysis (PCA), and algorithms, Feature Engineering, Deep Learning, SVM, KNN, Recommendation System, Natural Language Processing (NLP), Predictive Analytics, Networks, and Graphical Systems',
-        icon: GiArtificialIntelligence
-    },
-     
-    
-
-]
-
-const softSkills = [
-    {
-        skill: 'Leadership, People Skills, Organization, Coordination, and Collaboration', 
-        details: 'Harmonized three different music groups spanning two regions for 9 years to achieve various levelsof expertise. \n \n Coordinated an online community of over +2000 people to build a growth culture and discipline indifferent fields of the digital world ',
-        icon: VscOrganization
-    },
-
-    {
-        skill: 'Teaching, Problem-Solving, Storytelling, and Communication', 
-        details: 'Possess unique ways of demystifying complex topics in Mathematics, Business, Music, and Tech',
-        icon: GiTeacher
-    },
-]
-  
 
 function Skills() {
+
+    const techSkills = [
+        {
+            skill: 'Mathematics and Statistics', 
+            details: '',
+            icon: MdAssessment,
+        },
+    
+        {
+            skill: 'Data Visualization Tools', 
+            details: 'Tableau, Power BI, Matplotlib, Seaborn, Microsoft Azure, AWS',
+            icon: FcDataConfiguration,
+        },
+    
+        {
+            skill: 'Exploratory Data Analysis (EDA)', 
+            details: 'NumPy, Pandas, Scikit-learn',
+            icon: SiAzuredataexplorer,
+        },
+    
+        {
+            skill: 'Programming and Database', 
+            details: 'SQL (Structured Query Language), Python (Jupyter Notebook, Spyder), Google Collab, Flask, GitHub',
+            icon: HiCodeBracket,
+        },
+    
+        {
+            skill: 'Data Science and Machine Learning Models and Algorithms', 
+            details: 'Regressions and Prediction, Classiﬁcation and Hypothesis Testing, Random Forest, Decision Tree, Hyperparameter Tuning, K-means Clustering, Principal Component Analysis (PCA), and algorithms, Feature Engineering, Deep Learning, SVM, KNN, Recommendation System, Natural Language Processing (NLP), Predictive Analytics, Networks, and Graphical Systems',
+            icon: GiArtificialIntelligence
+        },
+         
+        
+    
+    ]
+    
+    const softSkills = [
+        {
+            skill: 'Leadership, People Skills, Organization, Coordination, and Collaboration', 
+            details: 
+                "Coordinates an online community of over 2000 people to build a growth culture and discipline indifferent fields of the digital world. \n Harmonized three different music groups spanning two regions for 9 years to achieve various levels of expertise."
+        
+            ,
+            icon: VscOrganization
+        },
+    
+        {
+            skill: 'Teaching, Problem-Solving, Storytelling, and Communication', 
+            details: 'Possess unique ways of demystifying complex topics in Mathematics, Business, Music, and Tech',
+            icon: GiTeacher
+        },
+    ]
+      
+    
     return (
       <div className="flex flex-col justify-center bg-slate-50 py-24 lg:py-32 rounded-lg  overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0">
         
@@ -123,8 +128,8 @@ function Skills() {
                         </div>
 
                         <div className="py-8">
-                            <p className="text-lg font-bold  text-center">{skills.skill}</p>
-                            <p className="text-sm text-center text-blue-800">{skills.details}</p>
+                            <p className="text-lg font-bold  text-left ">{skills.skill}</p>
+                            <p className="text-sm text-left text-blue-800">{skills.details}</p>
                             
                         </div>
                         

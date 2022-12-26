@@ -15,7 +15,7 @@ function Home() {
         <Datascience />
         <Interests />
         <Skills />
-        <Work />
+        
         <Platforms />
     </div>
   )

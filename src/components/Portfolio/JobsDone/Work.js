@@ -56,7 +56,7 @@ const dataScience = [
 const techSkills = [
     {
         skill: 'Mathematics and Statistics', 
-        details: 'Tableau, Power ',
+        details: '',
         icon: MdAssessment,
     },
 
