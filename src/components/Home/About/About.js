@@ -27,7 +27,7 @@ function About() {
         <div>
             <Link
                 to="/about"
-                className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-800"
+                className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
             >
                 More...
             </Link>

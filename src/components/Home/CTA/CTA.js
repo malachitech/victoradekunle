@@ -34,13 +34,13 @@ function CTA() {
                 </div>
             ))}
             
-            <p className="block text-xl mt-8  md:text-2xl">Data Analyst &#124; Data Scientist &#124; Doctoral Researcher (Mathematical Epidemiology) &#124; Blockchain Technology</p>
+            <p className="block text-xl mt-8  md:text-2xl"> Data Scientist &#124; Doctoral Researcher (Mathematical Epidemiology) &#124; Blockchain Technology</p>
             
           </div>
 
           <Link
             to="/portfolio"
-            className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-800"
+            className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
           >
             My Portfolio
           </Link>

@@ -1,6 +1,5 @@
 import React from 'react'
 import About from './About/About'
-import Work from './Work/Work'
 import CTA from './CTA/CTA'
 import Interests from './Interests/Interests'
 import Skills from './Skills/Skills'

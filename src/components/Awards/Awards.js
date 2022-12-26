@@ -4,6 +4,7 @@ import cousera from '../Images/cousera.jpg'
 import greatLearning from '../Images/great-learning.png'
 import python from '../Images/python.png'
 import udemy from '../Images/diff-transform.jpg'
+// import kmeans from '../Images/k-means.jpg'
 
 import './Awards.css'
 /* This example requires Tailwind CSS v2.0+ */
@@ -39,13 +40,23 @@ const awards = [
         
     },
 
+    {
+        title: 'Machine Learning with Python: k-Means Clustering',
+        location: `
+                LinkedIn
+                `,
+        date: 'November 2022',
+        img: 'https://files.realpython.com/media/K-Means-Clustering-in-Python_Watermarked.70101a29a2a2.jpg',
+        },
+    
+
   ]
   
 function Awards() {
   return (
 
     <div>
-        <Banner text='Awards And Recognitions' />
+        <Banner text='Awards And Certifications' />
 
 
         <div className='py-24 mx-auto lg:w-3/5 w-4/5'>

@@ -9,7 +9,7 @@ import Banner from '../About/Banner/Banner'
 function Membership() {
   return (
     <div>
-        <Banner  text='Membership' />
+        <Banner  text='Membership And Recognitions' />
 
         <div className='membership'>
             <div className='membership-card my-10'>

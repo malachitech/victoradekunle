@@ -2,13 +2,12 @@ import React from 'react'
 import { SiAcademia } from "react-icons/si";
 
 const navigation = [
+  {
+    name: 'Academia',
+    href: 'https://victoraduragbemiadekunle.academia.edu/',
+    icon: SiAcademia,
+  },
   
-  
-    {
-      name: 'Academia',
-      href: 'https://victoraduragbemiadekunle.academia.edu/',
-      icon: SiAcademia,
-    },
   {
     name: 'GitHub',
     href: 'https://github.com/Javascreen1?tab=repositories',

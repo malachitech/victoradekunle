@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Research from '../../About/Research/Research'
 import { VscOrganization } from "react-icons/vsc";
 import { GiArtificialIntelligence, GiTeacher } from "react-icons/gi";  
@@ -144,6 +145,12 @@ function Work() {
                 </div>
             ))}
             </div>
+            <Link
+                to="/portfolio"
+                className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
+            >
+                More Datascience Projects
+            </Link>
         </div>
         
         {/* research workk */}

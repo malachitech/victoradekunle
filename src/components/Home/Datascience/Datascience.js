@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const dataScience = [
     {
@@ -76,17 +77,24 @@ function Datascience() {
                             <p className="text-lg font-bold text-center">{single.name} <span className='text-lg text-red-400'>&#124; {single.company}</span> </p>
                             <p className="text-sm  text-center">{single.date}</p>
                             <br />
-                            <p className="text-sm "><span className='font-bold'>Goal: </span>{single.goal}</p>
+                            <p className="text-lg "><span className='font-bold'>Goal: </span>{single.goal}</p>
                             <br />
-                            <p className="text-sm "><span className='font-bold'>Solution: </span>{single.solution}</p>
+                            <p className="text-lg "><span className='font-bold'>Solution: </span>{single.solution}</p>
                             <br />
-                            <p className="text-sm text-white"><span className='font-bold'>Result: </span> {single.result}</p>
+                            <p className="text-lg text-white"><span className='font-bold'>Result: </span> {single.result}</p>
                         </div>
                     </div>
                 </div>
                 </div>
             ))}
+            
             </div>
+            <Link
+                to="/portfolio"
+                className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
+            >
+                More Datascience Projects
+            </Link>
         </div>
         
     </div>

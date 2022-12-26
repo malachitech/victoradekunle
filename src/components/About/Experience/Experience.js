@@ -39,21 +39,21 @@ const people = [
         period: 'Sep 2022-Sep 2022 ',
     },
 
-    {
-        role: 'Machine Learning with Python: k-Means Clustering',
-        location: `
-            LinkedIn
-            `,
-        period: 'Issued Dec 2022 · No Expiration Date',
-    },
+    // {
+    //     role: 'Machine Learning with Python: k-Means Clustering',
+    //     location: `
+    //         LinkedIn
+    //         `,
+    //     period: 'Issued Dec 2022 · No Expiration Date',
+    // },
 
-    {
-        role: 'Machine Learning with Python',
-        location: `
-            LinkedIn
-            `,
-        period: 'Issued Nov 2022 · No Expiration Date ',
-    },
+    // {
+    //     role: 'Machine Learning with Python',
+    //     location: `
+    //         LinkedIn
+    //         `,
+    //     period: 'Issued Nov 2022 · No Expiration Date ',
+    // },
 
     {
         role: 'Python for Data Science and Machine Learning Bootcamp ',

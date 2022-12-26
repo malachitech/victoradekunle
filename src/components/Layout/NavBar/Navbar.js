@@ -94,7 +94,7 @@ function Navbar() {
             {open && 
               <div id="sidebarMenu">
               <ul className="sidebarMenuInner">
-                <Link to='/' onClick={toggledropdown}><li>Victor A. Adekunle<span>Data Analyst</span></li></Link>
+                <Link to='/' onClick={toggledropdown}><li>Victor A. Adekunle<span>Data Scientist</span></li></Link>
                 <Link to="/"  onClick={toggledropdown} className="sidebarContent text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
 
                 <Link to="/portfolio"  onClick={toggledropdown} className="text-blue-500 hover:text-blue-200 block px-3 py-2 rounded-md text-base font-medium">Portfolio</Link>
@@ -102,8 +102,8 @@ function Navbar() {
                 <Link to="/about"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
 
                 <Link to="/research"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Research Work</Link>
-                <Link to="/awards"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Awards And Recognitions</Link>
-                <Link to="/membership"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships</Link>
+                <Link to="/awards"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Awards And Certifications</Link>
+                <Link to="/membership"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships And Recognition.</Link>
 
                 <a href="https://www.academia.edu/attachments/95831182/download_file?s=portfolio"
                   onClick={toggledropdown}
