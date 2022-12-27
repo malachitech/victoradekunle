@@ -89,12 +89,13 @@ function Datascience() {
             ))}
             
             </div>
-            <Link
-                to="/portfolio"
+            <a
+                href="https://github.com/Javascreen1?tab=repositories"
+                target='_blank' rel='noreferrer'
                 className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
             >
                 More Datascience Projects
-            </Link>
+            </a>
         </div>
         
     </div>

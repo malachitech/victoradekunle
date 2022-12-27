@@ -71,8 +71,8 @@ function Description() {
 
             <div className=" lg:ml-8">
                 <div className="tracking-tight text-gray-900">
-                    <h1 className="block font-bold mt-4 text-2xl text-blue-800 md:text-4xl">Contemplative coder and mathematician. Inspired by tough problems.</h1>
-                    <p className="block text-l mt-4  md:text-2xl">Data Scientist &#124; Doctoral Researcher (Mathematical Epidemiology) &#124; Blockchain Technology</p>
+                    <h1 className="block font-bold mt-4 text-2xl text-blue-800 md:text-4xl">Articulate and dedicated mathematician. Inspired by tough problems.</h1>
+                    <p className="block text-l mt-4  md:text-2xl">Data Scientist &#124; Doctoral Researcher (Mathematical Epidemiology) &#124; Blockchain Technology Enthusiast.</p>
                     <div className='mt-4'>
                         <p>
                             A certified Data Scientist with a core background in mathematics with 7 years
@@ -160,12 +160,13 @@ function Description() {
 
             
             </div>
-            <Link
-                to="/portfolio"
+            <a
+                href="https://github.com/Javascreen1?tab=repositories"
+                rel='noreferrer' target='_blank'
                 className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
             >
                 More Datascience Projects
-            </Link>
+            </a>
         </div>
 
 

@@ -67,12 +67,13 @@ function Research() {
             </div>
         ))}
         </div>
-        <Link
-            to="/portfolio"
-            className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
-        >
-            More Research Work
-        </Link>
+        <a
+                href="https://victoraduragbemiadekunle.academia.edu/"
+                rel='noreferrer' target='_blank'
+                className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
+            >
+                More Research Work
+            </a>
     </div>
   )
 }

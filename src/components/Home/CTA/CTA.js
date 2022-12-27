@@ -34,7 +34,7 @@ function CTA() {
                 </div>
             ))}
             
-            <p className="block text-xl mt-8  md:text-2xl"> Data Scientist &#124; Doctoral Researcher (Mathematical Epidemiology) &#124; Blockchain Technology</p>
+            <p className="block text-xl mt-8  md:text-2xl"> Data Scientist &#124; Doctoral Researcher (Mathematical Epidemiology) &#124; Blockchain Technology Enthusiast</p>
             
           </div>
 

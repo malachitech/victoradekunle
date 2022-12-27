@@ -145,12 +145,13 @@ function Work() {
                 </div>
             ))}
             </div>
-            <Link
-                to="/portfolio"
+            <a
+                href="https://github.com/Javascreen1?tab=repositories"
+                rel='noreferrer' target='_blank'
                 className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
             >
                 More Datascience Projects
-            </Link>
+            </a>
         </div>
         
         {/* research workk */}

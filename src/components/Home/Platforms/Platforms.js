@@ -3,8 +3,8 @@ import React from "react"
 const posts = [
     {
       title: 'My base-of-operation for all things code.',
-      href: 'https://www.linkedin.com/in/victor-adekunle/',
-      category: { name: 'Github', href: 'https://www.linkedin.com/in/victor-adekunle/' },
+      href: 'https://github.com/Javascreen1?tab=repositories',
+      category: { name: 'Github', href: 'https://github.com/Javascreen1?tab=repositories' },
       
       imageUrl:
         'https://logodownload.org/wp-content/uploads/2019/08/github-logo.png',
