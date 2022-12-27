@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './Research.css'
 /* This example requires Tailwind CSS v2.0+ */
 const research = [

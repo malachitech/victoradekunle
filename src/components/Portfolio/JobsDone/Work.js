@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
+
 import Research from '../../About/Research/Research'
 import { VscOrganization } from "react-icons/vsc";
 import { GiArtificialIntelligence, GiTeacher } from "react-icons/gi";  
