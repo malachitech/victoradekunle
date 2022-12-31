@@ -1,48 +1,51 @@
 
 import React from "react"
 import { VscOrganization } from "react-icons/vsc";
-import { GiArtificialIntelligence, GiTeacher } from "react-icons/gi";  
+// import { GiArtificialIntelligence, GiTeacher } from "react-icons/gi";  
+import {  GiTeacher } from "react-icons/gi";  
 import { MdAssessment} from 'react-icons/md'
-import { HiCodeBracket } from "react-icons/hi2";
-import { SiAzuredataexplorer } from "react-icons/si";
-import { FcDataConfiguration } from "react-icons/fc";
+// import { HiCodeBracket } from "react-icons/hi2";
+// import { SiAzuredataexplorer } from "react-icons/si";
+// import { FcDataConfiguration } from "react-icons/fc";
 
 function Skills() {
 
-    const techSkills = [
-        {
-            skill: 'Mathematics and Statistics', 
-            details: '',
-            icon: MdAssessment,
-        },
+    // const techSkills = [
+    //     {
+    //         skill: 'Mathematics and Statistics', 
+    //         details: [],
+    //         icon: MdAssessment,
+    //     },
     
-        {
-            skill: 'Data Visualization Tools', 
-            details: 'Tableau, Power BI, Matplotlib, Seaborn, Microsoft Azure, AWS',
-            icon: FcDataConfiguration,
-        },
+
+    //     {
+    //         skill: 'Data Visualization Tools', 
+    //         details: ['Tableau,Power BI', 'Matplotlib', 'Seaborn', 'Microsoft Azure', 'AWS'],
+                
+    //         icon: FcDataConfiguration,
+    //     },
     
-        {
-            skill: 'Exploratory Data Analysis (EDA)', 
-            details: 'NumPy, Pandas, Scikit-learn',
-            icon: SiAzuredataexplorer,
-        },
+    //     {
+    //         skill: 'Exploratory Data Analysis (EDA)', 
+    //         details: ['NumPy', 'Pandas', 'Scikit-learn'],
+    //         icon: SiAzuredataexplorer,
+    //     },
     
-        {
-            skill: 'Programming and Database', 
-            details: 'SQL (Structured Query Language), Python (Jupyter Notebook, Spyder), Google Collab, Flask, GitHub',
-            icon: HiCodeBracket,
-        },
+    //     {
+    //         skill: 'Programming and Database', 
+    //         details: ['SQL (Structured Query Language)', 'Python (Jupyter Notebook, Spyder)', 'Google Collab, Flask, GitHub'],
+    //         icon: HiCodeBracket,
+    //     },
     
-        {
-            skill: 'Data Science and Machine Learning Models and Algorithms', 
-            details: 'Regressions and Prediction, Classiﬁcation and Hypothesis Testing, Random Forest, Decision Tree, Hyperparameter Tuning, K-means Clustering, Principal Component Analysis (PCA), and algorithms, Feature Engineering, Deep Learning, SVM, KNN, Recommendation System, Natural Language Processing (NLP), Predictive Analytics, Networks, and Graphical Systems',
-            icon: GiArtificialIntelligence
-        },
+    //     {
+    //         skill: 'Data Science and Machine Learning Models and Algorithms', 
+    //         details: ['Regressions and Prediction', 'Classiﬁcation and Hypothesis Testing', 'Random Forest, Decision Tree', 'Hyperparameter Tuning',' K-means Clustering',' Principal Component Analysis (PCA)', 'and algorithms', 'Feature Engineering', 'Deep Learning', 'SVM', 'KNN', 'Recommendation System', 'Natural Language Processing (NLP)', 'Predictive Analytics',' Networks', 'Graphical Systems'],
+    //         icon: GiArtificialIntelligence
+    //     },
          
         
     
-    ]
+    // ]
     
     const softSkills = [
         {
@@ -60,7 +63,17 @@ function Skills() {
             icon: GiTeacher
         },
     ]
+
+    // const dataVisuals = ['Tableau,Power BI', 'Matplotlib', 'Seaborn', 'Microsoft Azure', 'AWS']
+    // const explore = ['NumPy', 'Pandas', 'Scikit-learn']
+    // const program = ['SQL (Structured Query Language)', 'Python (Jupyter Notebook, Spyder)', 'Google Collab, Flask, GitHub']
+    const dataScience = [` Regressions and Prediction, `, ' Classiﬁcation and Hypothesis Testing, ', ' Random Forest, ', ' Decision Tree, ', ' Hyperparameter Tuning, ',' K-means Clustering, ',' Principal Component Analysis (PCA), ', ' and algorithms, ', ' Feature Engineering, ', ' Deep Learning, ', ' SVM, ', ' KNN, ', ' Recommendation System, ', ' Natural Language Processing (NLP), ', ' Predictive Analytics, ',' Networks, ', ' Graphical Systems, ']
+ 
       
+    // useEffect(() => {
+        
+    //     detail()
+    // }, [])
     
     return (
       <div className="flex flex-col justify-center bg-slate-50 py-24 lg:py-32 rounded-lg  overflow-hidden shadow divide-y divide-gray-200 sm:divide-y-0">
@@ -82,9 +95,8 @@ function Skills() {
             </h2>
             <div className="flex flex-col lg:w-2/5 w-4/5 mx-auto">
             
-            {techSkills && techSkills.map((skills) => (
+           
                 <div
-                    key={skills.skill}
                     className="datascience bg-white relative border  border-gray-300 px-6 py-5 shadow-lg  flex items-center justify-center space-x-3 hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
@@ -92,18 +104,20 @@ function Skills() {
                     <div className="focus:outline-none ">
                         {/* <span className="absolute inset-0" aria-hidden="true" /> */}
                         <div className="text-5xl font-bold flex flex-col justify-center items-center text-center py-16">
-                            <skills.icon />
+                            <MdAssessment />
                         </div>
 
                         <div className="py-8">
-                            <p className="text-xl font-bold  text-center">{skills.skill}</p>
-                            <p className="text-lg text-center text-blue-800">{skills.details}</p>
+                            <p className="text-xl font-bold  text-center">Mathematics and Statistics</p>
+                            <ul className="text-lg text-blue-800 flex flex-wrap justify-center flex-col">
+                                {dataScience.map(dt => (<li className="">{dt}</li>))}
+                            </ul>
                         </div>
                         
                     </div>
                 </div>
                 </div>
-            ))}
+ 
             </div>
         </div>
 

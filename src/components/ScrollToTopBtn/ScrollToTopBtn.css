@@ -2,10 +2,34 @@
     position: fixed; 
     width: 100%;
     bottom: 180px;
-    left: 35rem;
+    left: 40%;
     height: 20px;
     font-size: 3rem;
     z-index: 99;
     cursor: pointer;
     color: rgba(41, 41, 71, 0.658);
 }
+
+/* @media (min-width: 800px) {
+   
+    .membership-card{
+        flex-direction: row;
+        background-color: #eee;
+    }
+
+    .membership-icmc{
+        flex-direction: row;
+        background-color: #eee;
+    }
+    
+
+    .membershipCard-img{
+        width: 70%;
+    }
+
+    .membership-detail p{
+        padding: 0 20px;
+    }
+    
+    
+} */
