@@ -47,8 +47,15 @@ const awards = [
                 `,
         date: 'November 2022',
         img: 'https://files.realpython.com/media/K-Means-Clustering-in-Python_Watermarked.70101a29a2a2.jpg',
-        },
+    },
     
+    {
+        title: 'Predictive Analysis',
+        location: 'Great Learning',
+        date: 'December 2022',
+        img: greatLearning,
+        
+    },
 
   ]
   
@@ -63,7 +70,7 @@ function Awards() {
      
             <div className='text-center py-2 pb-16'>
                 <h2 className='uppercase text-4xl lg:text-4xl font-bold '>
-                    Awards
+                    Awards And Certifications
                 </h2>
             </div>
         <div className="awards-group grid grid-cols-1 gap-4 sm:grid-cols-2">

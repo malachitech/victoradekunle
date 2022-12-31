@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import {Routes, Route} from 'react-router-dom'
 import Layout from './components/Layout/Layout'
 import AboutScreen from './components/Screens/AboutScreen'
@@ -10,6 +10,19 @@ import ResearchWorkScreen from './components/Screens/ResearchWorkScreen'
 
 
 function Router() {
+  const scrollToTop = () =>{
+    window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+    /* you can also use 'auto' behaviour
+      in place of 'smooth' */
+    });
+  };
+  
+  useEffect(() => {
+    scrollToTop()
+  }, [])
+  
   return (
     <div>
         <Routes>

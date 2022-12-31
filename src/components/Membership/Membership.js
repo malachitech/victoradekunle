@@ -1,7 +1,8 @@
 import React from 'react'
 import cousera from '../Images/cousera.jpg'
-import greatLearning from '../Images/great-learning.png'
-import udemy from '../Images/diff-transform.jpg'
+import icms from '../Images/icms.jpg'
+import bma from '../Images/bma.jpg'
+import man from '../Images/man.png'
 
 import './Membership.css'
 import Banner from '../About/Banner/Banner'
@@ -29,21 +30,30 @@ function Membership() {
                 </div>
 
                 <div className='membershipCard-img'>
-                    <img src={greatLearning} alt='mit' />
+                    <img src={icms} alt='mit' />
                 </div>
 
             </div>
 
             <div className='membership-card my-10'>
                 <div className='membershipCard-img'>
-                    <img src={udemy} alt='mit' />
+                    <img src={bma} alt='mit' />
                 </div>
 
                 <div className='membership-detail'>
-                    <p className='text-bold text-lg my-10 text-center'>Member, International Centre for Mathematical Sciences (ICMS)</p>
+                    <p className='text-bold text-lg my-10 text-center'>Member, Black in Mathematics Association (BMA)</p>
                 </div>
             </div>
-                
+
+            <div className='membership-card my-10'>
+                <div className='membershipCard-img'>
+                    <img src={man} alt='mit' />
+                </div>
+
+                <div className='membership-detail'>
+                    <p className='text-bold text-lg my-10 text-center'>Member, Mathematics Association of Nigeria (MAN)</p>
+                </div>
+            </div>    
                 
         </div>
     </div>
