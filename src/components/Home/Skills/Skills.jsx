@@ -7,6 +7,7 @@ import { MdAssessment} from 'react-icons/md'
 import { HiCodeBracket } from "react-icons/hi2";
 // import { SiAzuredataexplorer } from "react-icons/si";
 import { FcDataConfiguration } from "react-icons/fc";
+import './Skills.css'
 
 function Skills() {
 
@@ -14,7 +15,7 @@ function Skills() {
             const dataScience =
             [
                 {
-                    title: 'Regressions and Prediction,',
+                    title: 'Regressions and Prediction',
                     icon: GiTeacher
         
                 },
@@ -24,72 +25,72 @@ function Skills() {
         
                 },
                 {
-                    title: 'Random Forest,',
+                    title: 'Random Forest',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Decision Tree,',
+                    title: 'Decision Tree',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Hyperparameter Tuning,',
+                    title: 'Hyperparameter Tuning',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'K-means Clustering,',
+                    title: 'K-means Clustering',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Principal Component Analysis (PCA) and algorithms,',
+                    title: 'Principal Component Analysis (PCA) and algorithms',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Feature Engineering,',
+                    title: 'Feature Engineering',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Deep Learning,',
+                    title: 'Deep Learning',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'SVM,',
+                    title: 'SVM',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'KNN,',
+                    title: 'KNN',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Recommendation System,',
+                    title: 'Recommendation System',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Natural Language Processing (NLP),',
+                    title: 'Natural Language Processing (NLP)',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Predictive Analytics,',
+                    title: 'Predictive Analytics',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Networks,',
+                    title: 'Networks',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Graphical Systems,',
+                    title: 'Graphical Systems',
                     icon: GiTeacher
         
                 },
@@ -98,7 +99,7 @@ function Skills() {
             const dataVisuals =
             [
                 { 
-                    title: 'Tableau,',
+                    title: 'Tableau',
                     icon: GiTeacher
         
                 },
@@ -163,12 +164,12 @@ function Skills() {
         
                 },
                 {
-                    title: 'Google Collab,',
+                    title: 'Google Collab',
                     icon: GiTeacher
         
                 },
                 {
-                    title: 'Flask,',
+                    title: 'Flask',
                     icon: GiTeacher
         
                 },
@@ -212,13 +213,33 @@ function Skills() {
         </div>
         
         {/* technical skilss  */}
-        <div className='bg-slate-200 pb-20 mb-20 flex flex-col justify-center'>
-            <h2 className='text-black  text-3xl text-center py-20 '>
+        <div className='techskills pb-20 mb-20 '>
+            <h2 className='text-white  text-3xl text-center py-20 '>
                 Technical skills
             </h2>
-            <div className="lg:grid  mx-auto grid-cols-3 grid-rows-3 gap-4 ">
+            <div className="lg:grid  mx-auto grid-cols-3 grid-rows-3 gap-4 w-4/5">
             
+            <div
+                    className="lg:hidden datascience h-4/5 w-45 bg-white relative border lg:m-4 mt-4 lg:mt-0 border-gray-300 px-6 py-5 shadow-lg  hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                >
+                
+                    <div className="flex-1 min-w-0 ">
+                        <div className="focus:outline-none ">
+                            {/* <span className="absolute inset-0" aria-hidden="true" /> */}
+                            <div className="text-5xl font-bold flex flex-col justify-center items-center text-center py-4">
+                                <MdAssessment />
+                            </div>
 
+                            <div className="py-8">
+                                <p className="text-xl font-bold  text-center text-slate-600">Mathematics and Statistic</p>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                
+                </div>
             
             <div
                     className="datascience col-span-2 row-span-2 w-45 bg-white relative border lg:m-4 mt-4 lg:mt-0 border-gray-300 px-6 py-5 shadow-lg  hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
@@ -232,11 +253,11 @@ function Skills() {
                             </div>
 
                             <div className="py-8">
-                                <p className="text-xl font-bold  text-center">Data Science and Machine Learning Models and Algorithms</p>
+                                <p className="text-xl font-bold  text-center text-slate-600">Data Science and Machine Learning Models and Algorithms</p>
 
                                 {dataScience && dataScience.map(detail =>( 
                                     <div className="text-lg flex flex-wrap justify-center flex-col">
-                                        <p className="flex items-center space-x-2">
+                                        <p className="flex items-center space-x-2 my-2">
                                             <span><detail.icon /></span> 
                                             <span>{detail.title}</span>
                                         </p>
@@ -253,7 +274,7 @@ function Skills() {
 
                 
                 <div
-                    className="datascience h-4/5 w-45 bg-white relative border lg:m-4 mt-4 lg:mt-0 border-gray-300 px-6 py-5 shadow-lg  hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
+                    className="hidden lg:block datascience h-4/5 w-45 bg-white relative border lg:m-4 mt-4 lg:mt-0 border-gray-300 px-6 py-5 shadow-lg  hover:border-gray-400 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500"
                 >
                 
                     <div className="flex-1 min-w-0 ">
@@ -264,7 +285,7 @@ function Skills() {
                             </div>
 
                             <div className="py-8">
-                                <p className="text-xl font-bold  text-center">Mathematics and Statistic</p>
+                                <p className="text-xl font-bold  text-center text-slate-600">Mathematics and Statistic</p>
                                 
                             </div>
                             
@@ -287,7 +308,7 @@ function Skills() {
                             </div>
 
                             <div className="py-8">
-                                <p className="text-xl font-bold  text-center">Exploratory Data Analysis (EDA)</p>
+                                <p className="text-xl font-bold  text-center text-slate-600">Exploratory Data Analysis (EDA)</p>
 
                                 {exploratory && exploratory.map(detail =>( 
                                     <div className="text-lg flex flex-wrap justify-center flex-col">
@@ -319,7 +340,7 @@ function Skills() {
                             </div>
 
                             <div className="py-8">
-                                <p className="text-xl font-bold  text-center">Data Visualization Tools</p>
+                                <p className="text-xl font-bold  text-center text-slate-600">Data Visualization Tools</p>
 
                                 {dataVisuals && dataVisuals.map(detail =>( 
                                     <div className="text-lg flex flex-wrap justify-center flex-col">
@@ -351,7 +372,7 @@ function Skills() {
                             </div>
 
                             <div className="py-8">
-                                <p className="text-xl font-bold  text-center">Programming and Database</p>
+                                <p className="text-xl font-bold  text-center text-slate-600">Programming and Database</p>
 
                                 {programming && programming.map(detail =>( 
                                     <div className="text-lg flex flex-wrap justify-center flex-col">
@@ -374,8 +395,8 @@ function Skills() {
         </div>
 
          {/* soft skilss  */}
-         <div className='pb-20 '>
-            <h2 className='text-3xl text-center mx-auto mb-20'>
+         <div className='softskills pb-20 '>
+            <h2 className='text-white text-3xl text-center mx-auto m-20'>
                 Soft skills
             </h2>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2  mx-auto lg:w-3/5 w-4/5">
@@ -394,8 +415,8 @@ function Skills() {
                         </div>
 
                         <div className="py-8">
-                            <p className="text-lg font-bold  text-left ">{skills.skill}</p>
-                            <p className="text-sm text-left text-blue-800">{skills.details}</p>
+                            <p className="text-xl font-bold  text-left text-slate-600">{skills.skill}</p>
+                            <p className="text-lg text-left ">{skills.details}</p>
                             
                         </div>
                         

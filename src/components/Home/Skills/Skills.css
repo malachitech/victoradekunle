@@ -1,0 +1,15 @@
+.techskills{
+    background-image: url('../../../../public/images/tech.jpg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.softskills{
+    background-image: url('../../../../public/images/soft.jpg');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

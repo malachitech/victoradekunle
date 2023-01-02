@@ -1,6 +1,6 @@
 import React from 'react'
-import cousera from '../Images/cousera.jpg'
-import icms from '../Images/icms.jpg'
+// import cousera from '../Images/cousera.jpg'
+// import icms from '../Images/icms.jpg'
 import bma from '../Images/bma.jpg'
 import man from '../Images/man.png'
 
@@ -15,7 +15,7 @@ function Membership() {
         <div className='membership'>
             <div className='membership-card my-10'>
                 <div className='membershipCard-img'>
-                    <img src={cousera} alt='mit' />
+                    <img src="https://i0.wp.com/innovarista.org/wp-content/uploads/2017/04/image15.png" alt='mit' />
                 </div>
 
                 <div className='membership-detail'>
@@ -30,7 +30,7 @@ function Membership() {
                 </div>
 
                 <div className='membershipCard-img'>
-                    <img src={icms} alt='mit' />
+                    <img src="https://ecmiindmath.org/wp-content/uploads/2021/05/ICMS-logo.png" alt='mit' />
                 </div>
 
             </div>

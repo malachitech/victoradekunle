@@ -36,9 +36,16 @@ const people = [
         location: `
                 Professional , Data Science and Machine Learning
             `,
-        period: 'Sep 2022-Sep 2022 ',
+        period: 'Sep 2022-Jan 2023 ',
     },
-
+    
+    {
+        role: 'Data Analyst',
+        location: `
+        VividBlock
+            `,
+        period: 'July 2022 – Dec 2022 ',
+    },
     // {
     //     role: 'Machine Learning with Python: k-Means Clustering',
     //     location: `
@@ -60,7 +67,7 @@ const people = [
         location: `
             Udemy
             `,
-        period: 'Issued Sep 2022 · No Expiration Date ',
+        period: 'Issued Aug 2022 · No Expiration Date ',
     },
 
   ]
@@ -73,7 +80,7 @@ function Experience() {
                 My Experience
             </h2>
         </div>
-        <div className=" grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <div className=" grid grid-cols-1 items-center gap-4 sm:grid-cols-2 justify-center">
         {people.map((person, i) => (
             <div
             key={i}

@@ -1,13 +1,12 @@
 .scrollBtn{
     position: fixed; 
-    width: 100%;
-    bottom: 180px;
-    left: 40%;
-    height: 20px;
+    bottom: 120px;
+    right: 8%;
     font-size: 3rem;
     z-index: 99;
     cursor: pointer;
-    color: rgba(41, 41, 71, 0.658);
+    color: rgb(5, 33, 70);
+
 }
 
 /* @media (min-width: 800px) {
