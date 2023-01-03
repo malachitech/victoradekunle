@@ -213,7 +213,7 @@ function Skills() {
         </div>
         
         {/* technical skilss  */}
-        <div className='techskills pb-20 mb-20 '>
+        <div className='techskills pb-20'>
             <h2 className='text-white  text-3xl text-center py-20 '>
                 Technical skills
             </h2>

@@ -1,34 +1,21 @@
 .scrollBtn{
     position: fixed; 
-    bottom: 120px;
+    bottom: 175px;
     right: 8%;
     font-size: 3rem;
     z-index: 99;
     cursor: pointer;
-    color: rgb(5, 33, 70);
+    color: rgb(45, 135, 253);
 
 }
 
-/* @media (min-width: 800px) {
+@media (min-width: 600px) {
    
-    .membership-card{
-        flex-direction: row;
-        background-color: #eee;
-    }
-
-    .membership-icmc{
-        flex-direction: row;
-        background-color: #eee;
+    .scrollBtn{
+         
+        bottom: 120px;
+        right: 8%;
+        
     }
     
-
-    .membershipCard-img{
-        width: 70%;
-    }
-
-    .membership-detail p{
-        padding: 0 20px;
-    }
-    
-    
-} */
+}
