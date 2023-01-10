@@ -3,8 +3,19 @@ import React from "react"
 import { VscOrganization } from "react-icons/vsc";
 import { GiArtificialIntelligence, GiTeacher } from "react-icons/gi";  
 // import {  GiTeacher } from "react-icons/gi";  
-import { MdAssessment} from 'react-icons/md'
+import { MdAssessment, MdOutlineMobiledataOff, MdOutlineEngineering, MdBatchPrediction} from 'react-icons/md'
 import { HiCodeBracket } from "react-icons/hi2";
+import { IoBarChartSharp } from "react-icons/io5";
+import { SiHypothesis, SiTableau, SiMicrosoftpowerpoint, SiConcourse, SiMicrosoftazure, SiNumpy, SlSocialGithub, SiPandas, SlSocialGithub, SiScikitlearn, SiPython, SiFlask } from "react-icons/si";
+import { FcMakeDecision, FcDataEncryption, FcLineChart, FcCollaboration } from "react-icons/fc";
+import { ImTree, ImStatsDots } from "react-icons/im";
+import { BiAnalyse } from "react-icons/bi";
+import { AiFillFund, AiOutlineDotChart } from "react-icons/ai";
+import {GrMapLocation, GrRobot, GrMysql} from "react-icons/gr";
+import {BiSelectMultiple} from "react-icons/bi";
+import {TbNetwork} from "react-icons/tb";
+import {FaAws} from "react-icons/fa";
+
 // import { SiAzuredataexplorer } from "react-icons/si";
 import { FcDataConfiguration } from "react-icons/fc";
 import './Skills.css'
@@ -16,82 +27,82 @@ function Skills() {
             [
                 {
                     title: 'Regressions and Prediction',
-                    icon: GiTeacher
+                    icon: IoBarChartSharp
         
                 },
                 {
                     title: 'Classiﬁcation and Hypothesis Testing',
-                    icon: GiTeacher
+                    icon: SiHypothesis
         
                 },
                 {
                     title: 'Random Forest',
-                    icon: GiTeacher
+                    icon: FcMakeDecision
         
                 },
                 {
                     title: 'Decision Tree',
-                    icon: GiTeacher
+                    icon: ImTree
         
                 },
                 {
                     title: 'Hyperparameter Tuning',
-                    icon: GiTeacher
+                    icon: FcDataEncryption
         
                 },
                 {
                     title: 'K-means Clustering',
-                    icon: GiTeacher
+                    icon: MdOutlineMobiledataOff
         
                 },
                 {
                     title: 'Principal Component Analysis (PCA) and algorithms',
-                    icon: GiTeacher
+                    icon: BiAnalyse
         
                 },
                 {
                     title: 'Feature Engineering',
-                    icon: GiTeacher
+                    icon: MdOutlineEngineering
         
                 },
                 {
                     title: 'Deep Learning',
-                    icon: GiTeacher
+                    icon: AiFillFund
         
                 },
                 {
                     title: 'SVM',
-                    icon: GiTeacher
+                    icon: AiOutlineDotChart
         
                 },
                 {
                     title: 'KNN',
-                    icon: GiTeacher
+                    icon: GrMapLocation
         
                 },
                 {
                     title: 'Recommendation System',
-                    icon: GiTeacher
+                    icon: BiSelectMultiple
         
                 },
                 {
                     title: 'Natural Language Processing (NLP)',
-                    icon: GiTeacher
+                    icon: GrRobot
         
                 },
                 {
                     title: 'Predictive Analytics',
-                    icon: GiTeacher
+                    icon: MdBatchPrediction
         
                 },
                 {
                     title: 'Networks',
-                    icon: GiTeacher
+                    icon: TbNetwork
         
                 },
                 {
                     title: 'Graphical Systems',
-                    icon: GiTeacher
+                    icon: FcLineChart
         
                 },
             ]
@@ -100,32 +111,32 @@ function Skills() {
             [
                 { 
                     title: 'Tableau',
-                    icon: GiTeacher
+                    icon: SiTableau
         
                 },
                 {
                     title: 'Power BI',
-                    icon: GiTeacher
+                    icon: SiMicrosoftpowerpoint
         
                 },
                 {
                     title: 'Matplotlib',
-                    icon: GiTeacher
+                    icon: SiConcourse
         
                 },
                 {
                     title: 'Seaborn',
-                    icon: GiTeacher
+                    icon: ImStatsDots
         
                 },
                 {
                     title: 'Microsoft Azure',
-                    icon: GiTeacher
+                    icon: SiMicrosoftazure
         
                 },
                 {
                     title: 'AWS',
-                    icon: GiTeacher
+                    icon: FaAws
         
                 },
 
@@ -136,17 +147,17 @@ function Skills() {
             [
                 { 
                     title: 'NumPy',
-                    icon: GiTeacher
+                    icon: SiNumpy
         
                 },
                 {
                     title: 'Pandas',
-                    icon: GiTeacher
+                    icon: SiPandas
         
                 },
                 {
                     title: 'Scikit-learn',
-                    icon: GiTeacher
+                    icon: SiScikitlearn
         
                 },
             ]
@@ -155,27 +166,27 @@ function Skills() {
             [
                 { 
                     title: 'SQL (Structured Query Language)',
-                    icon: GiTeacher
+                    icon: GrMysql
         
                 },
                 {
                     title: 'Python (Jupyter Notebook, Spyder)',
-                    icon: GiTeacher
+                    icon: SiPython
         
                 },
                 {
                     title: 'Google Collab',
-                    icon: GiTeacher
+                    icon: FcCollaboration
         
                 },
                 {
                     title: 'Flask',
-                    icon: GiTeacher
+                    icon: SiFlask
         
                 },
                 {
                     title: 'GitHub',
-                    icon: GiTeacher
+                    icon: SlSocialGithub
         
                 },
             ]
