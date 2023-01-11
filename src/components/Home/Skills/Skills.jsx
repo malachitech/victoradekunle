@@ -6,7 +6,7 @@ import { GiArtificialIntelligence, GiTeacher } from "react-icons/gi";
 import { MdAssessment, MdOutlineMobiledataOff, MdOutlineEngineering, MdBatchPrediction} from 'react-icons/md'
 import { HiCodeBracket } from "react-icons/hi2";
 import { IoBarChartSharp } from "react-icons/io5";
-import { SiHypothesis, SiTableau, SiMicrosoftpowerpoint, SiConcourse, SiMicrosoftazure, SiNumpy, SlSocialGithub, SiPandas, SlSocialGithub, SiScikitlearn, SiPython, SiFlask } from "react-icons/si";
+import { SiHypothesis, SiTableau, SiMicrosoftpowerpoint, SiConcourse, SiMicrosoftazure, SiNumpy,  SiPandas, SiScikitlearn, SiPython, SiFlask } from "react-icons/si";
 import { FcMakeDecision, FcDataEncryption, FcLineChart, FcCollaboration } from "react-icons/fc";
 import { ImTree, ImStatsDots } from "react-icons/im";
 import { BiAnalyse } from "react-icons/bi";
@@ -15,6 +15,7 @@ import {GrMapLocation, GrRobot, GrMysql} from "react-icons/gr";
 import {BiSelectMultiple} from "react-icons/bi";
 import {TbNetwork} from "react-icons/tb";
 import {FaAws} from "react-icons/fa";
+import {SlSocialGithub} from "react-icons/sl";
 
 // import { SiAzuredataexplorer } from "react-icons/si";
 import { FcDataConfiguration } from "react-icons/fc";
