@@ -1,5 +1,4 @@
 import React,  {useState} from 'react'
-import { Link } from 'react-router-dom';
 import './Navbar.css'
 import { SiAcademia } from "react-icons/si";
 
@@ -94,16 +93,16 @@ function Navbar() {
             {open && 
               <div id="sidebarMenu">
               <ul className="sidebarMenuInner">
-                <Link to='/' onClick={toggledropdown}><li>Victor A. Adekunle<span>Data Scientist</span></li></Link>
-                <Link to="/"  onClick={toggledropdown} className="sidebarContent text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
+                <a href='/' onClick={toggledropdown}><li>Victor A. Adekunle<span>Data Scientist</span></li></a>
+                <a href="/"  onClick={toggledropdown} className="sidebarContent text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
 
-                <Link to="/portfolio"  onClick={toggledropdown} className="text-blue-500 hover:text-blue-200 block px-3 py-2 rounded-md text-base font-medium">Portfolio</Link>
+                <a href="/portfolio"  onClick={toggledropdown} className="text-blue-500 hover:text-blue-200 block px-3 py-2 rounded-md text-base font-medium">Portfolio</a>
 
-                <Link to="/about"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link>
+                <a href="/about"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
 
-                <Link to="/research"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Research Work</Link>
-                <Link to="/awards"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Awards And Certifications</Link>
-                <Link to="/membership"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships And Recognition.</Link>
+                <a href="/research"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Research Work</a>
+                <a href="/awards"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Awards And Certifications</a>
+                <a href="/membership"  onClick={toggledropdown} className="text-white hover:bg-blue-900 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Memberships And Recognition.</a>
 
                 <a href="https://www.academia.edu/attachments/95831182/download_file?s=portfolio"
                   onClick={toggledropdown}

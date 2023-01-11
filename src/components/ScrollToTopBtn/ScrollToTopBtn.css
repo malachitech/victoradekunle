@@ -1,21 +1,53 @@
 .scrollBtn{
     position: fixed; 
-    bottom: 175px;
-    right: 8%;
-    font-size: 3rem;
+    bottom: 40%;
+    right: 1%;
+    font-size: 2rem;
     z-index: 9;
     cursor: pointer;
     color: rgb(45, 135, 253);
+    border: 2px solid rgb(45, 135, 253);
+    /* background-color: blue; */
+    width: 40px;
+}
+.scrollBtn h3{
+    width: 100%;
 
+    font-size: 0.6rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    /* background-color: black; */
+    transform: rotate(270deg);
+    transform-origin: (0 0);
+}
+
+
+.scrollBtn:hover{
+    color: white;
+    background: rgb(45, 135, 253);
+    /* box-shadow: 5px 5px 30px; */
 }
 
 @media (min-width: 600px) {
    
     .scrollBtn{
-         
-        bottom: 120px;
-        right: 8%;
+
+        font-size: 2.3rem;
         
     }
+
+  
+    .scrollBtn h3{
+        font-size: 0.5rem;
+        width: 100%;
+        font-weight: bold;
+        /* top: 100px; */
+        /* margin-left: -5px; */
+        /* margin-bottom: 30px; */
+    }
     
+
 }

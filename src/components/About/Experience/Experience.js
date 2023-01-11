@@ -46,21 +46,7 @@ const people = [
             `,
         period: 'July 2022 – Dec 2022 ',
     },
-    // {
-    //     role: 'Machine Learning with Python: k-Means Clustering',
-    //     location: `
-    //         LinkedIn
-    //         `,
-    //     period: 'Issued Dec 2022 · No Expiration Date',
-    // },
-
-    // {
-    //     role: 'Machine Learning with Python',
-    //     location: `
-    //         LinkedIn
-    //         `,
-    //     period: 'Issued Nov 2022 · No Expiration Date ',
-    // },
+    
 
     {
         role: 'Python for Data Science and Machine Learning Bootcamp ',
@@ -70,6 +56,12 @@ const people = [
         period: 'Issued Aug 2022 · No Expiration Date ',
     },
 
+    {
+        role: 'Data Science and Machine Learning - Making Data Driven Decisions',
+        location: 'MIT Schwarzman College Of Computing',
+        period: 'January 2023',
+        
+    },
   ]
   
 function Experience() {
@@ -98,6 +90,12 @@ function Experience() {
             </div>
         ))}
         </div>
+        <a
+            href="/awards"
+            className="inline-block px-5 py-3 mt-10 border border-transparent text-base font-medium text-white bg-blue-800 hover:bg-blue-600"
+        >
+            More Awards and Recognitions
+        </a>
     </div>
   )
 }

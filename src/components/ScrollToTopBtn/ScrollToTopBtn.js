@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaRegArrowAltCircleUp} from 'react-icons/fa';
+import {IoArrowUpCircle} from 'react-icons/io5';
 
 import './ScrollToTopBtn.css'
 
@@ -29,9 +29,9 @@ const scrollToTop = () =>{
 window.addEventListener('scroll', toggleVisible);
 
 return (
-	<button className='scrollBtn'>
-        <FaRegArrowAltCircleUp onClick={scrollToTop}
-        style={{display: visible ? 'inline' : 'none'}} />
+	<button className='scrollBtn' style={{display: visible ? 'inline' : 'none'}}  onClick={scrollToTop}>
+        <IoArrowUpCircle />
+		<h3>TO TOP</h3>
 	</button>
 );
 }
