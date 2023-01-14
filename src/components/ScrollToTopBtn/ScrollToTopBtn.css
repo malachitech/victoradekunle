@@ -19,7 +19,6 @@
     text-transform: uppercase;
     letter-spacing: 3px;
     margin-top: 20px;
-    /* background-color: black; */
     transform: rotate(270deg);
     transform-origin: (0 0);
 }
@@ -44,9 +43,7 @@
         font-size: 0.5rem;
         width: 100%;
         font-weight: bold;
-        /* top: 100px; */
-        /* margin-left: -5px; */
-        /* margin-bottom: 30px; */
+      
     }
     
 
